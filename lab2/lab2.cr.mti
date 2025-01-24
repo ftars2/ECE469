@@ -1,0 +1,85 @@
+{C:/Users/panda/Documents/ece texts books/ece 469/lab2/testxxgp.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testxxgp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testxxgp
+
+Top level modules:
+	testxxgp
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testallgp.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testallgp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testallgp
+
+Top level modules:
+	testallgp
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xgp
+
+Top level modules:
+	xgp
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testbird.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testbird.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbird
+
+Top level modules:
+	testbird
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/2xgp.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/2xgp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xxgp
+
+Top level modules:
+	xxgp
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/carry.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/carry.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry
+
+Top level modules:
+	carry
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/tests.sv} {1 {vlog -work work -sv -stats=none {C:\Users\panda\Documents\ece texts books\ece 469\lab2\tests.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tests
+
+Top level modules:
+	tests
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/all_gp.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/all_gp.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module all_gp
+
+Top level modules:
+	all_gp
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testbench.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/king.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/king.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module king
+
+Top level modules:
+	king
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/bird.sv} {1 {vlog -work ece469real -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/bird.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bird
+
+Top level modules:
+	bird
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testcarry.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/lab2/testcarry.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testcarry
+
+Top level modules:
+	testcarry
+
+} {} {}}
