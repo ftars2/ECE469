@@ -6,6 +6,11 @@ module all_gp(
     output logic [1:0] g3,p3,
     output logic g4,p4
 );
+logic [1:0] bus0, bus1, bus2, bus3, bus4, bus5, bus6, bus7;
+logic [1:0] bus8, bus9, bus10, bus11, bus12, bus13, bus14, bus15;
+logic [1:0] buss0, buss1, buss2, buss3, buss4, buss5, buss6, buss7;
+logic [1:0] busss0, busss1, busss2, busss3;
+logic [1:0] bussss0, bussss1;
 xgp gp0(A[0], B[0], g[0], p[0]);
 xgp gp1(A[1], B[1], g[1], p[1]);
 xgp gp2(A[2], B[2], g[2], p[2]);
@@ -23,8 +28,6 @@ xgp gp13(A[13], B[13], g[13], p[13]);
 xgp gp14(A[14], B[14], g[14], p[14]);
 xgp gp15(A[15], B[15], g[15], p[15]);
 
-logic [1:0] bus0, bus1, bus2, bus3, bus4, bus5, bus6, bus7;
-logic [1:0] bus8, bus9, bus10, bus11, bus12, bus13, bus14, bus15;
 assign bus0 = {g[1], g[0]};
 assign bus1 = {g[3], g[2]};
 assign bus2 = {g[5], g[4]};
@@ -51,7 +54,6 @@ xxgp gpp5(bus5, bus13, g1[5], p1[5]);
 xxgp gpp6(bus6, bus14, g1[6], p1[6]);
 xxgp gpp7(bus7, bus15, g1[7], p1[7]);
 
-logic [1:0] buss0, buss1, buss2, buss3, buss4, buss5, buss6, buss7;
 
 assign buss0 = {g1[1], g1[0]};
 assign buss1 = {g1[3], g1[2]};
@@ -67,7 +69,6 @@ xxgp gppp1(buss1, buss5, g2[1], p2[1]);
 xxgp gppp2(buss2, buss6, g2[2], p2[2]);
 xxgp gppp3(buss3, buss7, g2[3], p2[3]);
 
-logic [1:0] busss0, busss1, busss2, busss3;
 
 assign busss0 = {g2[1], g2[0]};
 assign busss1 = {g2[3], g2[2]};
@@ -77,10 +78,9 @@ assign busss3 = {p2[3], p2[2]};
 xxgp gpppp0(busss0, busss2, g3[0], p3[0]);
 xxgp gpppp1(busss1, busss3, g3[1], p3[1]);
 
-logic [1:0] bussss0, bussss1;
 
 assign bussss0 = {g3[1], g3[0]};
-assign bussss1 = {p3[3], p3[2]};
+assign bussss1 = {p3[1], p3[0]};
 
 xxgp gppppp0(bussss0, bussss1, g4, p4);
 

@@ -17,9 +17,9 @@ module testallgp();
         
         // Test cases
         a = 16'b0; b = 16'b0; #20;
-        a = 'h0001;                          #10;
-        b = 'hFFFF;                          #10;
-        a='hFFFF; #10;
+        a = 16'b1;                          #10;
+        b = 16'b1111111111111111;                          #10;
+        a=16'b1111111111111111; #10;
         // End simulation
     end
 endmodule

@@ -1,5 +1,6 @@
 module testbench();
-    logic [15:0] A, B, sum, c;
+    logic [15:0] A, B, sum; 
+    logic [16:0] c;
 
     // Instantiate the design under test
     king dut (

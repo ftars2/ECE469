@@ -1,7 +1,8 @@
 module carry(
-    input logic cin, p, g,
+    input logic cin, g, p,
     output logic cout
 );
 assign cout= (cin&p)|g;
 
 endmodule
+//

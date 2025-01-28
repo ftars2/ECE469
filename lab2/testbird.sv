@@ -1,8 +1,9 @@
 module testbird();
-    logic [15:0] A, B, sum, c;
+    logic [15:0] A, B, sum; 
+    logic [16:0] c;
 
     // Instantiate the design under test
-    king dut (
+    bird dut (
         .A(A),
         .B(B),
         .sum(sum),
@@ -15,6 +16,7 @@ module testbird();
 
         // Test cases
         A = 16'b0000000000000000; B = 16'b0000000000000000; #10;
+        #10;
         A = 16'b0000000000000001;                          #10;
         B = 16'b1111111111111111;                          #10;
 
