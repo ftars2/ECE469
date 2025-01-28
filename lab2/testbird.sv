@@ -19,7 +19,7 @@ module testbird();
         #10;
         A = 16'b0000000000000001;                          #10;
         B = 16'b1111111111111111;                          #10;
-
+        A = 16'b1111111111111111; #10;
         // End simulation
     end
 endmodule
