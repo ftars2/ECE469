@@ -1,7 +1,7 @@
 module testbird();
     logic [15:0] A, B, sum; 
     logic [16:0] c;
-    logic of
+    logic of;
 
     // Instantiate the design under test
     sum_bird dut (
