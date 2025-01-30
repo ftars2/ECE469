@@ -4,17 +4,17 @@ module testbird();
     logic of
 
     // Instantiate the design under test
-    bird dut (
+    sum_bird dut (
         .A(A),
         .B(B),
         .sum(sum),
         .c(c),
-        .of(of_sum)
+        .of_sum(of)
     );
 
     initial begin
         // Debugging: Monitor signal changes
-        $monitor("Time=%0t A=%b B=%b Sum=%b Carry=%b", $time, A, B, sum, c);
+        $monitor("Time=%0t A=%b B=%b Sum=%b Carry=%b of=%b", $time, A, B, sum, c,of);
 
         // Test cases
         A = 16'b0000000000000000; B = 16'b0000000000000000; #10;

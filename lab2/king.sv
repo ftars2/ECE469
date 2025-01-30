@@ -4,6 +4,6 @@ module king(
     );
 
 
-bird dut(.A(A), .B(B), .sum(sum), .c(c_sum));
+sum_bird dut(.A(A), .B(B), .sum(sum), .c(c_sum));
 
 endmodule
