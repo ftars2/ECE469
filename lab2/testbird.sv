@@ -1,13 +1,15 @@
 module testbird();
     logic [15:0] A, B, sum; 
     logic [16:0] c;
+    logic of
 
     // Instantiate the design under test
     bird dut (
         .A(A),
         .B(B),
         .sum(sum),
-        .c(c)
+        .c(c),
+        .of(of_sum)
     );
 
     initial begin

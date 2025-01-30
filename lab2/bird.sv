@@ -1,7 +1,8 @@
 module bird(
     input logic [15:0] A, B,
     output logic [15:0] sum,
-    output logic [16:0] c
+    output logic [16:0] c,
+    output logic of_sum    
     );
 
 
@@ -55,5 +56,9 @@ assign sum[12] = A[12] ^ B[12] ^ c[12];
 assign sum[13] = A[13] ^ B[13] ^ c[13];
 assign sum[14] = A[14] ^ B[14] ^ c[14];
 assign sum[15] = A[15] ^ B[15] ^ c[15];
-
+logic part1;
+logic part2;
+assign part1=~(A[15])&~(B[15])&sum[15];
+assign part2=(A[15])&(B[15])&~sum[15];
+assign of_sum=part1|part2;
 endmodule
