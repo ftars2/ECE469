@@ -3,7 +3,7 @@ module testbird();
     logic [16:0] c;
 
     // Instantiate the design under test
-    sum_bird dut (
+    bird dut (
         .A(A),
         .B(B),
         .sum(sum),

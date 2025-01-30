@@ -8,7 +8,7 @@ module king(
 
 
 sum_bird dut(.A(A), .B(B), .sum(sum), .c(c));
-dif_bird dut2(.A(A), .B(B), .dif(dif), .c(c));
+dif_bird dut(.A(A), .B(B), .dif(dif), .c(c));
 
 assign lessthan = of_dif ^ dif[15]; 
 
