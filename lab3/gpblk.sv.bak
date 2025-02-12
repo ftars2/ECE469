@@ -1,0 +1,9 @@
+module gpblk(
+
+	input logic Ghb, Phb, Glb, Plb,
+	output logic Gij, Pij);
+
+	Gij = Ghb | (Phb & Glb);
+	Pij = Phb & Plb;
+
+endmodule
