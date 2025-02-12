@@ -1,7 +1,7 @@
 module sum_bird(
     input logic [15:0] A, B,
     output logic [15:0] sum,
-    output logic [16:0] c,
+    output logic [15:0] c,
     output logic of_sum    
     );
 
@@ -23,22 +23,22 @@ assign c[0] = 1'b0;
 
 
 
-carry c1(c[0],g[0], p[0], c[1]);
-carry c2(c[0],g1[0], p1[0], c[2]);
-carry c3(c[2],g[2], p[2], c[3]);
-carry c4(c[0],g2[0],p2[0],c[4]);
-carry c5(c[4],g[0],p[4],c[5]);
-carry c6(c[4],g1[2],p1[2],c[6]);
-carry c7(c[6],g[6],p[6],c[7]);
-carry c8(c[0],g3[0],p3[0],c[8]);
-carry c9(c[8],g[8],p[8],c[9]);
-carry c10(c[8],g1[4],p1[4],c[10]);
-carry c11(c[10],g[10],p[10],c[11]);
-carry c12(c[8],g2[2],p[2],c[12]);
-carry c13(c[12],g[12],p[12],c[13]);
-carry c14(c[12],g1[6],p1[6],c[14]);
-carry c15(c[14],g[14],p[14],c[15]);
-carry c16(c[0],g4,p4,c[16]);
+carryy c1(c[0],g[0], p[0], c[1]);
+carryy c2(c[0],g1[0], p1[0], c[2]);
+carryy c3(c[2],g[2], p[2], c[3]);
+carryy c4(c[0],g2[0],p2[0],c[4]);
+carryy c5(c[4],g[0],p[4],c[5]);
+carryy c6(c[4],g1[2],p1[2],c[6]);
+carryy c7(c[6],g[6],p[6],c[7]);
+carryy c8(c[0],g3[0],p3[0],c[8]);
+carryy c9(c[8],g[8],p[8],c[9]);
+carryy c10(c[8],g1[4],p1[4],c[10]);
+carryy c11(c[10],g[10],p[10],c[11]);
+carryy c12(c[8],g2[2],p[2],c[12]);
+carryy c13(c[12],g[12],p[12],c[13]);
+carryy c14(c[12],g1[6],p1[6],c[14]);
+carryy c15(c[14],g[14],p[14],c[15]);
+// carryy c16(c[0],g4,p4,c[16]);
 
 assign sum[0] = A[0] ^ B[0] ^ c[0];
 assign sum[1] = A[1] ^ B[1] ^ c[1];

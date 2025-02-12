@@ -1,4 +1,4 @@
-module carry(
+module carryy(
     input logic cin, g, p,
     output logic cout
 );

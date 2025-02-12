@@ -11,29 +11,29 @@ cModel Technology
 dE:/intelModelSim
 vall_gp
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1738206390
+Z1 !s110 1738215604
 !i10b 1
 !s100 =GlhhG7K[S7c]QgC8hOB71
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I<e^EK6?foQ3bk_>9@lAZ^2
+I[We?:9bW^fGIz:QX^99GR3
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-Z4 dC:/Users/skalo/Desktop/ECE469/lab2
-Z5 w1738035720
-8C:/Users/skalo/Desktop/ECE469/lab2/all_gp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/all_gp.sv
-!i122 1091
+Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2
+w1738200488
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/all_gp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/all_gp.sv
+!i122 1781
 L0 1 87
-Z6 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1738206390.000000
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/all_gp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/all_gp.sv|
+Z6 !s108 1738215604.000000
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/all_gp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/all_gp.sv|
 !i113 1
-Z8 o-work work -sv
-Z9 tCvgOpt 0
+Z7 o-work work -sv
+Z8 tCvgOpt 0
 vbird
 R0
 !s110 1738040727
@@ -43,13 +43,13 @@ R2
 I_7]Kaz9a>=Z9;>eJ;[B7W2
 R3
 S1
-dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2
+R4
 w1738039864
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/bird.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/bird.sv
 !i122 1077
 L0 1 59
-R6
+R5
 r1
 !s85 0
 31
@@ -57,108 +57,133 @@ r1
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/bird.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/bird.sv|
 !i113 1
+R7
 R8
-R9
 vcarry
 R0
-R1
+!s110 1738213314
 !i10b 1
 !s100 Nc0MIl:O4>z4JR:M6<=PE1
 R2
-I;g0>b[IFfeXM79zY=<ISP1
+IiL:ibA`9D_d^@zW5RI8BF0
 R3
 S1
 R4
+w1738034945
+Z9 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/carry.sv
+Z10 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/carry.sv
+!i122 1670
+Z11 L0 1 7
 R5
-8C:/Users/skalo/Desktop/ECE469/lab2/carry.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/carry.sv
-!i122 1092
-L0 1 7
-R6
 r1
 !s85 0
 31
+!s108 1738213314.000000
+Z12 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/carry.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/carry.sv|
+!i113 1
 R7
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/carry.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/carry.sv|
-!i113 1
 R8
-R9
-vdif_bird
-R0
-Z10 !s110 1738206391
-!i10b 1
-!s100 [4;5YZ8`V9]I@Q:A4kg4g0
-R2
-Id[4Gb>XlA52FOe[]=bE<j0
-R3
-S1
-R4
-w1738202865
-8C:/Users/skalo/Desktop/dif_bird.sv
-FC:/Users/skalo/Desktop/dif_bird.sv
-!i122 1103
-L0 1 53
-R6
-r1
-!s85 0
-31
-Z11 !s108 1738206391.000000
-!s107 C:/Users/skalo/Desktop/dif_bird.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/dif_bird.sv|
-!i113 1
-R8
-R9
-vjester
-R0
-Z12 !s110 1738206392
-!i10b 1
-!s100 W43m6H<d<aiU24C=?6AgW2
-R2
-IH9D6PmXjS8GdP3JKD@6IQ0
-R3
-S1
-R4
-w1738204830
-8C:/Users/skalo/Desktop/jester.sv
-FC:/Users/skalo/Desktop/jester.sv
-!i122 1104
-L0 1 11
-R6
-r1
-!s85 0
-31
-R11
-!s107 C:/Users/skalo/Desktop/jester.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/jester.sv|
-!i113 1
-R8
-R9
-vking
+vcarryy
 R0
 R1
 !i10b 1
-!s100 z[LVAllPmbzHWkS^75Q`U2
+!s100 ;L@Yf[QllaL2GnP8;W[L@3
 R2
-I[7]zPgc>7JVV:nN2ZhGz@3
+IQ@^BiR1k7IMKjfiZDNzS>2
 R3
 S1
 R4
-w1738203848
-8C:/Users/skalo/Desktop/ECE469/lab2/king.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/king.sv
-!i122 1093
-L0 1 15
-R6
+w1738213718
+R9
+R10
+!i122 1782
+R11
+R5
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/king.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/king.sv|
+R6
+R12
+R13
 !i113 1
+R7
 R8
-R9
+vdif_bird
+R0
+R1
+!i10b 1
+!s100 N[ED:iGGm?BKFEaPRfNk_3
+R2
+If2@a;Dn4lU_Qidl2N3NjA2
+R3
+S1
+R4
+w1738213745
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/dif_bird.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/dif_bird.sv
+!i122 1783
+L0 1 82
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/dif_bird.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/dif_bird.sv|
+!i113 1
+R7
+R8
+vjester
+R0
+Z14 !s110 1738215605
+!i10b 1
+!s100 aD;BKX4D1E6O<@5DEd[1D3
+R2
+I?LRIhP;hiF1N:`20o:1PK3
+R3
+S1
+R4
+w1738210243
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/jester.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/jester.sv
+!i122 1784
+L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/jester.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/jester.sv|
+!i113 1
+R7
+R8
+vking
+R0
+R14
+!i10b 1
+!s100 aGEQ[l@coU9gWHGo[HCS72
+R2
+IS0JdeEiDhb[PKaHodd1Xn1
+R3
+S1
+R4
+w1738215244
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/king.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/king.sv
+!i122 1785
+L0 1 15
+R5
+r1
+!s85 0
+31
+Z15 !s108 1738215605.000000
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/king.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/king.sv|
+!i113 1
+R7
+R8
 vl1xgp
 R0
 !s110 1737698169
@@ -168,22 +193,22 @@ R2
 IOLJ81=oT[;EjUPe95Cd:J3
 R3
 S1
-Z13 dC:/Users/panda/Documents/ece texts books/ece 469/lab2
+Z16 dC:/Users/panda/Documents/ece texts books/ece 469/lab2
 w1737698115
-Z14 8C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv
-Z15 FC:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv
+Z17 8C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv
+Z18 FC:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv
 !i122 4
-Z16 L0 1 9
-R6
+Z19 L0 1 9
+R5
 r1
 !s85 0
 31
 !s108 1737698169.000000
-Z17 !s107 C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv|
-Z18 !s90 -reportprogress|300|-work|ece469real|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv|
+Z20 !s107 C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv|
+Z21 !s90 -reportprogress|300|-work|ece469real|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/lab2/1xgp.sv|
 !i113 1
-Z19 o-work ece469real -sv
-R9
+Z22 o-work ece469real -sv
+R8
 vlxgp
 R0
 !s110 1737698091
@@ -193,269 +218,294 @@ R2
 IHCCC2m>F97H6gQVH><6S41
 R3
 S1
-R13
-w1737698084
-R14
-R15
-!i122 1
 R16
-R6
+w1737698084
+R17
+R18
+!i122 1
+R19
+R5
 r1
 !s85 0
 31
 !s108 1737698091.000000
-R17
-R18
+R20
+R21
 !i113 1
-R19
-R9
+R22
+R8
 vsum_bird
 R0
-R1
+R14
 !i10b 1
-!s100 kKM>Y:SMVoY9:MZ;hDkWi0
+!s100 ENK_O>`0_KI1ST2Q7^H]o2
 R2
-I<Jbk4Poz@ialbfKQg]]423
+IF?9>Td?W7;`Fd[mzk:GDa1
 R3
 S1
 R4
-Z20 w1738199246
-8C:/Users/skalo/Desktop/ECE469/lab2/sum_bird.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/sum_bird.sv
-!i122 1094
-L0 1 64
-R6
+w1738213756
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/sum_bird.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/sum_bird.sv
+!i122 1786
+Z23 L0 1 64
+R5
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/sum_bird.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/sum_bird.sv|
+R15
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/sum_bird.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/sum_bird.sv|
 !i113 1
+R7
 R8
-R9
 vtestallgp
 R0
-R1
+R14
 !i10b 1
 !s100 Dc6<iYVaKQ6?2C0EZz:kT0
 R2
-I9mSOLSf5P:JKd=ikaEL=_0
+Id7@R<zCI5k^LO2fQK;>4J0
 R3
 S1
 R4
+w1738029452
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testallgp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testallgp.sv
+!i122 1787
+L0 1 25
 R5
-8C:/Users/skalo/Desktop/ECE469/lab2/testallgp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testallgp.sv
-!i122 1095
-Z21 L0 1 25
-R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testallgp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testallgp.sv|
+R15
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testallgp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testallgp.sv|
 !i113 1
+R7
 R8
-R9
 vtestbench
 R0
-R10
+Z24 !s110 1738215606
 !i10b 1
-!s100 R?9oL_4RRZLWP=:>DV1I02
+!s100 a3BEnJlbP@DX@YTNd4AQJ1
 R2
-IO=8T9NU5z:Y`US91baAO_0
+IW=S3FTUPb7;JDCQR6>SNU2
 R3
 S1
 R4
-w1738040847
-8C:/Users/skalo/Desktop/ECE469/lab2/testbench.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testbench.sv
-!i122 1096
-R21
-R6
+w1738215488
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbench.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbench.sv
+!i122 1788
+L0 1 24
+R5
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testbench.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testbench.sv|
+R15
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbench.sv|
 !i113 1
+R7
 R8
-R9
 vtestbird
 R0
-R10
+R24
 !i10b 1
-!s100 lY`F:=2I^@QUSC=Uz^KB81
+!s100 NBZhFjGin7Lc9RX[Va@U:0
 R2
-IHQ5Kkm_lTz36=c[n]hOXZ2
+I=7HSSO^HDbj]5APoRBC5b0
 R3
 S1
 R4
-w1738199634
-8C:/Users/skalo/Desktop/ECE469/lab2/testbird.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testbird.sv
-!i122 1097
-R21
-R6
+w1738210227
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbird.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbird.sv
+!i122 1789
+L0 1 31
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testbird.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testbird.sv|
+Z25 !s108 1738215606.000000
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbird.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testbird.sv|
 !i113 1
+R7
 R8
-R9
 vtestcarry
 R0
-R10
+R24
 !i10b 1
-!s100 IOQ6McdE11;;EB^M;TcjR3
+!s100 ZGkjNH<NAVG?3_HYg[aI42
 R2
-IZl:@@`;g5Ta_h:GgH84N>2
+I_OAjme50;2oM7?O?J9kjJ1
 R3
 S1
 R4
-Z22 w1738036231
-8C:/Users/skalo/Desktop/ECE469/lab2/testcarry.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testcarry.sv
-!i122 1098
+w1738213728
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testcarry.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testcarry.sv
+!i122 1790
 L0 1 23
-R6
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testcarry.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testcarry.sv|
+R25
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testcarry.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testcarry.sv|
 !i113 1
+R7
 R8
-R9
+vtestdbird
+R0
+Z26 !s110 1738215607
+!i10b 1
+!s100 `aJlbCTzlCd6ZkBIdl5oj3
+R2
+I<XR]Bf0WN`hF315BaSY;H1
+R3
+S1
+R4
+w1738212343
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testdbird.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testdbird.sv
+!i122 1796
+R23
+R5
+r1
+!s85 0
+31
+Z27 !s108 1738215607.000000
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testdbird.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testdbird.sv|
+!i113 1
+R7
+R8
 vtestjester
 R0
-R12
+R24
 !i10b 1
-!s100 44n4`T:Z42I89U?ESU][:3
+!s100 X0:9m23Vzc1Q@a5SIW6HD3
 R2
-I3Q97]hP8Inhai_So2S55Z0
+Icz3eI>cMGg0M1`gNQ:m?a1
 R3
 S1
 R4
-w1738206292
-8C:/Users/skalo/Desktop/ECE469/lab2/testjester.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testjester.sv
-!i122 1105
-L0 1 35
-R6
+w1738215600
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testjester.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testjester.sv
+!i122 1791
+L0 1 36
+R5
 r1
 !s85 0
 31
-!s108 1738206392.000000
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testjester.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testjester.sv|
+R25
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testjester.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testjester.sv|
 !i113 1
+R7
 R8
-R9
 vtests
 R0
-R10
+R24
 !i10b 1
 !s100 njco_UMgP>gM[daSigKB;0
 R2
-Iac8f1gl^]FRTdoPl_K_1J3
+I1k9IaFNi1aWj44hc79f_K3
 R3
 S1
 R4
-R20
-8C:/Users/skalo/Desktop/ECE469/lab2/testxgp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testxgp.sv
-!i122 1099
+w1737742644
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxgp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxgp.sv
+!i122 1792
 L0 1 18
-R6
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testxgp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testxgp.sv|
+R25
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxgp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxgp.sv|
 !i113 1
+R7
 R8
-R9
 vtestxxgp
 R0
-R10
+R26
 !i10b 1
 !s100 `SAPi8M8?@SPO[5?iR^823
 R2
-IaEko;dE0HmacDEeZBUMB@0
+Io_U]<oIcbUTLbE85H[zRP0
 R3
 S1
 R4
-R22
-8C:/Users/skalo/Desktop/ECE469/lab2/testxxgp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/testxxgp.sv
-!i122 1100
+w1737743364
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxxgp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxxgp.sv
+!i122 1793
 L0 1 32
-R6
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/testxxgp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/testxxgp.sv|
+R25
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxxgp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/testxxgp.sv|
 !i113 1
+R7
 R8
-R9
 vxgp
 R0
-R10
+R26
 !i10b 1
 !s100 V9FT8d]^9zz1c6Olo43XK0
 R2
-IO0OV0<0W846X_a0BAiDbB3
+Igl6O>Q`[D>9VU^kS`3ba?3
 R3
 S1
 R4
-R20
-8C:/Users/skalo/Desktop/ECE469/lab2/xgp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/xgp.sv
-!i122 1101
-R16
-R6
+w1737746644
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xgp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xgp.sv
+!i122 1794
+R19
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/xgp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/xgp.sv|
+R27
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xgp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xgp.sv|
 !i113 1
+R7
 R8
-R9
 vxxgp
 R0
-R10
+R26
 !i10b 1
 !s100 _UR5UH__i108d5]7=[CMl1
 R2
-I_[jH6aPXRVNi7U<O7WXcC1
+I?:]cbZX<UPjAlk1i;]EK42
 R3
 S1
 R4
-R20
-8C:/Users/skalo/Desktop/ECE469/lab2/xxgp.sv
-FC:/Users/skalo/Desktop/ECE469/lab2/xxgp.sv
-!i122 1102
-R16
-R6
+w1738030747
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xxgp.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xxgp.sv
+!i122 1795
+R19
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/skalo/Desktop/ECE469/lab2/xxgp.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab2/xxgp.sv|
+R27
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xxgp.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab2/xxgp.sv|
 !i113 1
+R7
 R8
-R9

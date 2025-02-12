@@ -1,0 +1,1350 @@
+|jester
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= king:dut.sum
+sum[1] <= king:dut.sum
+sum[2] <= king:dut.sum
+sum[3] <= king:dut.sum
+sum[4] <= king:dut.sum
+sum[5] <= king:dut.sum
+sum[6] <= king:dut.sum
+sum[7] <= king:dut.sum
+sum[8] <= king:dut.sum
+sum[9] <= king:dut.sum
+sum[10] <= king:dut.sum
+sum[11] <= king:dut.sum
+sum[12] <= king:dut.sum
+sum[13] <= king:dut.sum
+sum[14] <= king:dut.sum
+sum[15] <= king:dut.sum
+dif[0] <= king:dut.dif
+dif[1] <= king:dut.dif
+dif[2] <= king:dut.dif
+dif[3] <= king:dut.dif
+dif[4] <= king:dut.dif
+dif[5] <= king:dut.dif
+dif[6] <= king:dut.dif
+dif[7] <= king:dut.dif
+dif[8] <= king:dut.dif
+dif[9] <= king:dut.dif
+dif[10] <= king:dut.dif
+dif[11] <= king:dut.dif
+dif[12] <= king:dut.dif
+dif[13] <= king:dut.dif
+dif[14] <= king:dut.dif
+dif[15] <= king:dut.dif
+sum_cout[0] <= king:dut.sum_cout
+sum_cout[1] <= king:dut.sum_cout
+sum_cout[2] <= king:dut.sum_cout
+sum_cout[3] <= king:dut.sum_cout
+sum_cout[4] <= king:dut.sum_cout
+sum_cout[5] <= king:dut.sum_cout
+sum_cout[6] <= king:dut.sum_cout
+sum_cout[7] <= king:dut.sum_cout
+sum_cout[8] <= king:dut.sum_cout
+sum_cout[9] <= king:dut.sum_cout
+sum_cout[10] <= king:dut.sum_cout
+sum_cout[11] <= king:dut.sum_cout
+sum_cout[12] <= king:dut.sum_cout
+sum_cout[13] <= king:dut.sum_cout
+sum_cout[14] <= king:dut.sum_cout
+sum_cout[15] <= king:dut.sum_cout
+dif_cout[0] <= king:dut.dif_cout
+dif_cout[1] <= king:dut.dif_cout
+dif_cout[2] <= king:dut.dif_cout
+dif_cout[3] <= king:dut.dif_cout
+dif_cout[4] <= king:dut.dif_cout
+dif_cout[5] <= king:dut.dif_cout
+dif_cout[6] <= king:dut.dif_cout
+dif_cout[7] <= king:dut.dif_cout
+dif_cout[8] <= king:dut.dif_cout
+dif_cout[9] <= king:dut.dif_cout
+dif_cout[10] <= king:dut.dif_cout
+dif_cout[11] <= king:dut.dif_cout
+dif_cout[12] <= king:dut.dif_cout
+dif_cout[13] <= king:dut.dif_cout
+dif_cout[14] <= king:dut.dif_cout
+dif_cout[15] <= king:dut.dif_cout
+of_sum <= king:dut.of_sum
+of_dif <= king:dut.of_dif
+lessthan <= king:dut.lessthan
+
+
+|jester|king:dut
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+A[2] => A[2].IN2
+A[3] => A[3].IN2
+A[4] => A[4].IN2
+A[5] => A[5].IN2
+A[6] => A[6].IN2
+A[7] => A[7].IN2
+A[8] => A[8].IN2
+A[9] => A[9].IN2
+A[10] => A[10].IN2
+A[11] => A[11].IN2
+A[12] => A[12].IN2
+A[13] => A[13].IN2
+A[14] => A[14].IN2
+A[15] => A[15].IN2
+B[0] => B[0].IN2
+B[1] => B[1].IN2
+B[2] => B[2].IN2
+B[3] => B[3].IN2
+B[4] => B[4].IN2
+B[5] => B[5].IN2
+B[6] => B[6].IN2
+B[7] => B[7].IN2
+B[8] => B[8].IN2
+B[9] => B[9].IN2
+B[10] => B[10].IN2
+B[11] => B[11].IN2
+B[12] => B[12].IN2
+B[13] => B[13].IN2
+B[14] => B[14].IN2
+B[15] => B[15].IN2
+sum[0] <= sum_bird:dut.sum
+sum[1] <= sum_bird:dut.sum
+sum[2] <= sum_bird:dut.sum
+sum[3] <= sum_bird:dut.sum
+sum[4] <= sum_bird:dut.sum
+sum[5] <= sum_bird:dut.sum
+sum[6] <= sum_bird:dut.sum
+sum[7] <= sum_bird:dut.sum
+sum[8] <= sum_bird:dut.sum
+sum[9] <= sum_bird:dut.sum
+sum[10] <= sum_bird:dut.sum
+sum[11] <= sum_bird:dut.sum
+sum[12] <= sum_bird:dut.sum
+sum[13] <= sum_bird:dut.sum
+sum[14] <= sum_bird:dut.sum
+sum[15] <= sum_bird:dut.sum
+sum_cout[0] <= sum_bird:dut.c
+sum_cout[1] <= sum_bird:dut.c
+sum_cout[2] <= sum_bird:dut.c
+sum_cout[3] <= sum_bird:dut.c
+sum_cout[4] <= sum_bird:dut.c
+sum_cout[5] <= sum_bird:dut.c
+sum_cout[6] <= sum_bird:dut.c
+sum_cout[7] <= sum_bird:dut.c
+sum_cout[8] <= sum_bird:dut.c
+sum_cout[9] <= sum_bird:dut.c
+sum_cout[10] <= sum_bird:dut.c
+sum_cout[11] <= sum_bird:dut.c
+sum_cout[12] <= sum_bird:dut.c
+sum_cout[13] <= sum_bird:dut.c
+sum_cout[14] <= sum_bird:dut.c
+sum_cout[15] <= sum_bird:dut.c
+dif_cout[0] <= dif_bird:dut2.c
+dif_cout[1] <= dif_bird:dut2.c
+dif_cout[2] <= dif_bird:dut2.c
+dif_cout[3] <= dif_bird:dut2.c
+dif_cout[4] <= dif_bird:dut2.c
+dif_cout[5] <= dif_bird:dut2.c
+dif_cout[6] <= dif_bird:dut2.c
+dif_cout[7] <= dif_bird:dut2.c
+dif_cout[8] <= dif_bird:dut2.c
+dif_cout[9] <= dif_bird:dut2.c
+dif_cout[10] <= dif_bird:dut2.c
+dif_cout[11] <= dif_bird:dut2.c
+dif_cout[12] <= dif_bird:dut2.c
+dif_cout[13] <= dif_bird:dut2.c
+dif_cout[14] <= dif_bird:dut2.c
+dif_cout[15] <= dif_bird:dut2.c
+dif[0] <= dif_bird:dut2.dif
+dif[1] <= dif_bird:dut2.dif
+dif[2] <= dif_bird:dut2.dif
+dif[3] <= dif_bird:dut2.dif
+dif[4] <= dif_bird:dut2.dif
+dif[5] <= dif_bird:dut2.dif
+dif[6] <= dif_bird:dut2.dif
+dif[7] <= dif_bird:dut2.dif
+dif[8] <= dif_bird:dut2.dif
+dif[9] <= dif_bird:dut2.dif
+dif[10] <= dif_bird:dut2.dif
+dif[11] <= dif_bird:dut2.dif
+dif[12] <= dif_bird:dut2.dif
+dif[13] <= dif_bird:dut2.dif
+dif[14] <= dif_bird:dut2.dif
+dif[15] <= dif_bird:dut2.dif
+of_sum <= <GND>
+of_dif <= <GND>
+lessthan <= dif_bird:dut2.dif
+
+
+|jester|king:dut|sum_bird:dut
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c[0] <= c[0].DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= carryy:c1.port3
+c[2] <= c[2].DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= carryy:c3.port3
+c[4] <= c[4].DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= carryy:c5.port3
+c[6] <= c[6].DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= carryy:c7.port3
+c[8] <= c[8].DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= carryy:c9.port3
+c[10] <= c[10].DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= carryy:c11.port3
+c[12] <= c[12].DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= carryy:c13.port3
+c[14] <= c[14].DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= carryy:c15.port3
+of_sum <= of_sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+g[0] <= bus0[0].DB_MAX_OUTPUT_PORT_TYPE
+g[1] <= bus0[1].DB_MAX_OUTPUT_PORT_TYPE
+g[2] <= bus1[0].DB_MAX_OUTPUT_PORT_TYPE
+g[3] <= bus1[1].DB_MAX_OUTPUT_PORT_TYPE
+g[4] <= bus2[0].DB_MAX_OUTPUT_PORT_TYPE
+g[5] <= bus2[1].DB_MAX_OUTPUT_PORT_TYPE
+g[6] <= bus3[0].DB_MAX_OUTPUT_PORT_TYPE
+g[7] <= bus3[1].DB_MAX_OUTPUT_PORT_TYPE
+g[8] <= bus4[0].DB_MAX_OUTPUT_PORT_TYPE
+g[9] <= bus4[1].DB_MAX_OUTPUT_PORT_TYPE
+g[10] <= bus5[0].DB_MAX_OUTPUT_PORT_TYPE
+g[11] <= bus5[1].DB_MAX_OUTPUT_PORT_TYPE
+g[12] <= bus6[0].DB_MAX_OUTPUT_PORT_TYPE
+g[13] <= bus6[1].DB_MAX_OUTPUT_PORT_TYPE
+g[14] <= bus7[0].DB_MAX_OUTPUT_PORT_TYPE
+g[15] <= bus7[1].DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= bus8[0].DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= bus8[1].DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= bus9[0].DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= bus9[1].DB_MAX_OUTPUT_PORT_TYPE
+p[4] <= bus10[0].DB_MAX_OUTPUT_PORT_TYPE
+p[5] <= bus10[1].DB_MAX_OUTPUT_PORT_TYPE
+p[6] <= bus11[0].DB_MAX_OUTPUT_PORT_TYPE
+p[7] <= bus11[1].DB_MAX_OUTPUT_PORT_TYPE
+p[8] <= bus12[0].DB_MAX_OUTPUT_PORT_TYPE
+p[9] <= bus12[1].DB_MAX_OUTPUT_PORT_TYPE
+p[10] <= bus13[0].DB_MAX_OUTPUT_PORT_TYPE
+p[11] <= bus13[1].DB_MAX_OUTPUT_PORT_TYPE
+p[12] <= bus14[0].DB_MAX_OUTPUT_PORT_TYPE
+p[13] <= bus14[1].DB_MAX_OUTPUT_PORT_TYPE
+p[14] <= bus15[0].DB_MAX_OUTPUT_PORT_TYPE
+p[15] <= bus15[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[0] <= buss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[1] <= buss0[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[2] <= buss1[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[3] <= buss1[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[4] <= buss2[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[5] <= buss2[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[6] <= buss3[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[7] <= buss3[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[0] <= buss4[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[1] <= buss4[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[2] <= buss5[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[3] <= buss5[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[4] <= buss6[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[5] <= buss6[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[6] <= buss7[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[7] <= buss7[1].DB_MAX_OUTPUT_PORT_TYPE
+g2[0] <= busss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g2[1] <= busss0[1].DB_MAX_OUTPUT_PORT_TYPE
+g2[2] <= busss1[0].DB_MAX_OUTPUT_PORT_TYPE
+g2[3] <= busss1[1].DB_MAX_OUTPUT_PORT_TYPE
+p2[0] <= busss2[0].DB_MAX_OUTPUT_PORT_TYPE
+p2[1] <= busss2[1].DB_MAX_OUTPUT_PORT_TYPE
+p2[2] <= busss3[0].DB_MAX_OUTPUT_PORT_TYPE
+p2[3] <= busss3[1].DB_MAX_OUTPUT_PORT_TYPE
+g3[0] <= bussss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g3[1] <= bussss0[1].DB_MAX_OUTPUT_PORT_TYPE
+p3[0] <= bussss1[0].DB_MAX_OUTPUT_PORT_TYPE
+p3[1] <= bussss1[1].DB_MAX_OUTPUT_PORT_TYPE
+g4 <= xxgp:gppppp0.port2
+p4 <= xxgp:gppppp0.port3
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp0
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp1
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp2
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp3
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp4
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp5
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp6
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp7
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp8
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp9
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp10
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp11
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp12
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp13
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp14
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xgp:gp15
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp2
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp3
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp4
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp5
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp6
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpp7
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gppp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gppp2
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gppp3
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gpppp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|all_gp:dave|xxgp:gppppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c1
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c2
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c3
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c4
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c5
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c6
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c7
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c8
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c9
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c10
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c11
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c12
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c13
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c14
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|sum_bird:dut|carryy:c15
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => dif.IN0
+B[0] => b[0].IN1
+B[1] => dif.IN0
+B[1] => b[1].IN1
+B[2] => dif.IN0
+B[2] => b[2].IN1
+B[3] => dif.IN0
+B[3] => b[3].IN1
+B[4] => dif.IN0
+B[4] => b[4].IN1
+B[5] => dif.IN0
+B[5] => b[5].IN1
+B[6] => dif.IN0
+B[6] => b[6].IN1
+B[7] => dif.IN0
+B[7] => b[7].IN1
+B[8] => dif.IN0
+B[8] => b[8].IN1
+B[9] => dif.IN0
+B[9] => b[9].IN1
+B[10] => dif.IN0
+B[10] => b[10].IN1
+B[11] => dif.IN0
+B[11] => b[11].IN1
+B[12] => dif.IN0
+B[12] => b[12].IN1
+B[13] => dif.IN0
+B[13] => b[13].IN1
+B[14] => dif.IN0
+B[14] => b[14].IN1
+B[15] => dif.IN0
+B[15] => part1.IN0
+B[15] => b[15].IN1
+B[15] => part2.IN0
+dif[0] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[1] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[2] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[3] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[4] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[5] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[6] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[7] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[8] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[9] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[10] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[11] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[12] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[13] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[14] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+dif[15] <= dif.DB_MAX_OUTPUT_PORT_TYPE
+c[0] <= c[0].DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= carryy:c1.port3
+c[2] <= c[2].DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= carryy:c3.port3
+c[4] <= c[4].DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= carryy:c5.port3
+c[6] <= c[6].DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= carryy:c7.port3
+c[8] <= c[8].DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= carryy:c9.port3
+c[10] <= c[10].DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= carryy:c11.port3
+c[12] <= c[12].DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= carryy:c13.port3
+c[14] <= c[14].DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= carryy:c15.port3
+of_dif <= of_dif.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+g[0] <= bus0[0].DB_MAX_OUTPUT_PORT_TYPE
+g[1] <= bus0[1].DB_MAX_OUTPUT_PORT_TYPE
+g[2] <= bus1[0].DB_MAX_OUTPUT_PORT_TYPE
+g[3] <= bus1[1].DB_MAX_OUTPUT_PORT_TYPE
+g[4] <= bus2[0].DB_MAX_OUTPUT_PORT_TYPE
+g[5] <= bus2[1].DB_MAX_OUTPUT_PORT_TYPE
+g[6] <= bus3[0].DB_MAX_OUTPUT_PORT_TYPE
+g[7] <= bus3[1].DB_MAX_OUTPUT_PORT_TYPE
+g[8] <= bus4[0].DB_MAX_OUTPUT_PORT_TYPE
+g[9] <= bus4[1].DB_MAX_OUTPUT_PORT_TYPE
+g[10] <= bus5[0].DB_MAX_OUTPUT_PORT_TYPE
+g[11] <= bus5[1].DB_MAX_OUTPUT_PORT_TYPE
+g[12] <= bus6[0].DB_MAX_OUTPUT_PORT_TYPE
+g[13] <= bus6[1].DB_MAX_OUTPUT_PORT_TYPE
+g[14] <= bus7[0].DB_MAX_OUTPUT_PORT_TYPE
+g[15] <= bus7[1].DB_MAX_OUTPUT_PORT_TYPE
+p[0] <= bus8[0].DB_MAX_OUTPUT_PORT_TYPE
+p[1] <= bus8[1].DB_MAX_OUTPUT_PORT_TYPE
+p[2] <= bus9[0].DB_MAX_OUTPUT_PORT_TYPE
+p[3] <= bus9[1].DB_MAX_OUTPUT_PORT_TYPE
+p[4] <= bus10[0].DB_MAX_OUTPUT_PORT_TYPE
+p[5] <= bus10[1].DB_MAX_OUTPUT_PORT_TYPE
+p[6] <= bus11[0].DB_MAX_OUTPUT_PORT_TYPE
+p[7] <= bus11[1].DB_MAX_OUTPUT_PORT_TYPE
+p[8] <= bus12[0].DB_MAX_OUTPUT_PORT_TYPE
+p[9] <= bus12[1].DB_MAX_OUTPUT_PORT_TYPE
+p[10] <= bus13[0].DB_MAX_OUTPUT_PORT_TYPE
+p[11] <= bus13[1].DB_MAX_OUTPUT_PORT_TYPE
+p[12] <= bus14[0].DB_MAX_OUTPUT_PORT_TYPE
+p[13] <= bus14[1].DB_MAX_OUTPUT_PORT_TYPE
+p[14] <= bus15[0].DB_MAX_OUTPUT_PORT_TYPE
+p[15] <= bus15[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[0] <= buss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[1] <= buss0[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[2] <= buss1[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[3] <= buss1[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[4] <= buss2[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[5] <= buss2[1].DB_MAX_OUTPUT_PORT_TYPE
+g1[6] <= buss3[0].DB_MAX_OUTPUT_PORT_TYPE
+g1[7] <= buss3[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[0] <= buss4[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[1] <= buss4[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[2] <= buss5[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[3] <= buss5[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[4] <= buss6[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[5] <= buss6[1].DB_MAX_OUTPUT_PORT_TYPE
+p1[6] <= buss7[0].DB_MAX_OUTPUT_PORT_TYPE
+p1[7] <= buss7[1].DB_MAX_OUTPUT_PORT_TYPE
+g2[0] <= busss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g2[1] <= busss0[1].DB_MAX_OUTPUT_PORT_TYPE
+g2[2] <= busss1[0].DB_MAX_OUTPUT_PORT_TYPE
+g2[3] <= busss1[1].DB_MAX_OUTPUT_PORT_TYPE
+p2[0] <= busss2[0].DB_MAX_OUTPUT_PORT_TYPE
+p2[1] <= busss2[1].DB_MAX_OUTPUT_PORT_TYPE
+p2[2] <= busss3[0].DB_MAX_OUTPUT_PORT_TYPE
+p2[3] <= busss3[1].DB_MAX_OUTPUT_PORT_TYPE
+g3[0] <= bussss0[0].DB_MAX_OUTPUT_PORT_TYPE
+g3[1] <= bussss0[1].DB_MAX_OUTPUT_PORT_TYPE
+p3[0] <= bussss1[0].DB_MAX_OUTPUT_PORT_TYPE
+p3[1] <= bussss1[1].DB_MAX_OUTPUT_PORT_TYPE
+g4 <= xxgp:gppppp0.port2
+p4 <= xxgp:gppppp0.port3
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp0
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp1
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp2
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp3
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp4
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp5
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp6
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp7
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp8
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp9
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp10
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp11
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp12
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp13
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp14
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xgp:gp15
+a => g.IN0
+a => p.IN0
+b => g.IN1
+b => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp2
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp3
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp4
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp5
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp6
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpp7
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gppp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gppp2
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gppp3
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gpppp1
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|all_gp:dave|xxgp:gppppp0
+gin[0] => g.IN0
+gin[1] => g.IN1
+pin[0] => p.IN0
+pin[1] => g.IN1
+pin[1] => p.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c1
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c2
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c3
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c4
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c5
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c6
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c7
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c8
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c9
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c10
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c11
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c12
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c13
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c14
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|jester|king:dut|dif_bird:dut2|carryy:c15
+cin => cout.IN0
+g => cout.IN1
+p => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

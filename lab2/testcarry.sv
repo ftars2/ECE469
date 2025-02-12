@@ -2,7 +2,7 @@ module testcarry();
     logic cin,p,g,cout;
 
     // Instantiate the design under test
-    carry dave(cin,p,g,cout);
+    carryy dave(cin,p,g,cout);
     initial begin
         // Debugging: Monitor signal changes
         // $monitor("Time=%0t A=%b B=%b Sum=%b Carry=%b", $time, A, B, sum, c);

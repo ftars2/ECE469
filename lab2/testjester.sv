@@ -1,7 +1,8 @@
 module testjester();
-    logic [15:0] sum, sum_cout, dif, dif_cout;
+    logic signed [15:0] sum, dif;
+    logic [15:0]sum_cout, dif_cout;
     logic of_sum, of_dif, lessthan;
-    logic signed A, B;
+    logic signed [15:0] A, B;
 
     // Instantiate the design under test
     jester dut (
@@ -18,7 +19,7 @@ module testjester();
 
     initial begin
         // Debugging: Monitor signal changes
-        $monitor("Time=%0t A=%d B=%d sum=%d sum_cout=%d dif=%d dif_cout=%d of_sum=%d of_dif=%d lessthan=%d", $time, A, B, sum, sum_cout, dif, dif_cout, of_sum, of_dif, lessthan);
+        $monitor("Time=%0t A=%d B=%d sum=%d dif=%d of_sum=%d of_dif=%d lessthan=%d", $time, A, B, sum, dif, of_sum, of_dif, lessthan);
 
         // Test cases
         #20; A=0; B=0;

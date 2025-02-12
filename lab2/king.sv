@@ -1,14 +1,14 @@
 module king(
     input logic [15:0] A, B,
-    output logic [15:0] sum, sum_cout,
-    output logic [15:0] dif, dif_cout,
-    output logic of_sum, of_dif, lessthan,
-    output logic [16:0] c
+    output logic [15:0] sum, 
+    output logic [15:0]sum_cout, dif_cout,
+    output logic [15:0] dif,
+    output logic of_sum, of_dif, lessthan
     );
 
 
-sum_bird dut(.A(A), .B(B), .sum(sum), .c(c));
-dif_bird dut2(.A(A), .B(B), .dif(dif), .c(c));
+sum_bird dut((A), (B), (sum), (sum_cout),of_sum);
+dif_bird dut2((A), (B), (dif), (dif_cout),of_dif);
 
 assign lessthan = of_dif ^ dif[15]; 
 
