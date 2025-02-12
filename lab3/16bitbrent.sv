@@ -82,9 +82,9 @@ assign C[14] = gij[12];
 gbit c15(G[14], P[14], gij[12], gij[13]);
 assign C[15] = gij[13];
 
-gblk g8(G[15], P[15], G[14], P[14], gijblk[8], pijblk[8]);
-gblk g9(gijblk[8], pijblk[8], gijblk[7], pijblk[7], gijblk[9], pijblk[9]);
-gblk g10(gijblk[9], pijblk[9], gijblk[6], pijblk[6], gijblk[10], pijblk[10]);
+gpblk g8(G[15], P[15], G[14], P[14], gijblk[8], pijblk[8]);
+gpblk g9(gijblk[8], pijblk[8], gijblk[7], pijblk[7], gijblk[9], pijblk[9]);
+gpblk g10(gijblk[9], pijblk[9], gijblk[6], pijblk[6], gijblk[10], pijblk[10]);
 gbit c16(gijblk[10], pijblk[10], gij[6], gij[14]);
 assign cout = gij[14];
 

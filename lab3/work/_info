@@ -160,6 +160,81 @@ R9
 R7
 R8
 nborrow@x16
+vgbit
+R0
+Z13 !s110 1739333835
+!i10b 1
+!s100 LCA1798KK76<OZ]V=[@Hb2
+R2
+IH5>A=HaW4`g8d0TA0e9Sk1
+R3
+S1
+Z14 dC:/Users/skalo/Desktop/ECE469/lab3
+Z15 w1739332106
+8C:/Users/skalo/Desktop/ECE469/lab3/gbit.sv
+FC:/Users/skalo/Desktop/ECE469/lab3/gbit.sv
+!i122 215
+L0 1 6
+R5
+r1
+!s85 0
+31
+Z16 !s108 1739333835.000000
+!s107 C:/Users/skalo/Desktop/ECE469/lab3/gbit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab3/gbit.sv|
+!i113 1
+R7
+R8
+vgpbit
+R0
+!s110 1739333834
+!i10b 1
+!s100 =38@kJJz9lnBeD;h]Jg_Y3
+R2
+ICGk?BG9QOSKOMzfFnRBMj2
+R3
+S1
+R14
+R15
+8C:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv
+FC:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv
+!i122 213
+Z17 L0 1 9
+R5
+r1
+!s85 0
+31
+!s108 1739333834.000000
+!s107 C:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv|
+!i113 1
+R7
+R8
+vgpblk
+R0
+R13
+!i10b 1
+!s100 WZ_AWHlf3]ndjbTQa@b;Z2
+R2
+IPRn<UDWlR3ZSoBL86hPZF0
+R3
+S1
+R14
+R15
+8C:\Users\skalo\Desktop\ECE469\lab3\gpblk.sv
+FC:\Users\skalo\Desktop\ECE469\lab3\gpblk.sv
+!i122 214
+R17
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\skalo\Desktop\ECE469\lab3\gpblk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\skalo\Desktop\ECE469\lab3\gpblk.sv|
+!i113 1
+R7
+R8
 vtest16bitcompare
 R0
 R1
@@ -261,3 +336,54 @@ R9
 R7
 R8
 ntestborrow@x16
+vtestbrentadd
+R0
+R13
+!i10b 1
+!s100 aJUaWQMJ9VNk_i[6fTbRQ0
+R2
+Iz<jkKf`;5dQnNMVL81YMN1
+R3
+S1
+R14
+w1739333819
+8C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv
+FC:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv
+!i122 217
+L0 1 24
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv|
+!i113 1
+R7
+R8
+vXVIbitbrent
+R0
+R13
+!i10b 1
+!s100 06MGDYR3fIUbbd`SIN5Mk3
+R2
+INz`2e2Hn]L389mUe]E1Ve0
+R3
+S1
+R14
+w1739333620
+8C:\Users\skalo\Desktop\ECE469\lab3\16bitbrent.sv
+FC:\Users\skalo\Desktop\ECE469\lab3\16bitbrent.sv
+!i122 216
+L0 1 93
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\skalo\Desktop\ECE469\lab3\16bitbrent.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\skalo\Desktop\ECE469\lab3\16bitbrent.sv|
+!i113 1
+R7
+R8
+n@x@v@ibitbrent
