@@ -1,0 +1,7056 @@
+|last
+A[0] => A[0].IN5
+A[1] => A[1].IN5
+A[2] => A[2].IN5
+A[3] => A[3].IN5
+A[4] => A[4].IN5
+A[5] => A[5].IN5
+A[6] => A[6].IN5
+A[7] => A[7].IN5
+A[8] => A[8].IN5
+A[9] => A[9].IN5
+A[10] => A[10].IN5
+A[11] => A[11].IN5
+A[12] => A[12].IN5
+A[13] => A[13].IN5
+A[14] => A[14].IN5
+A[15] => A[15].IN5
+A[16] => A[16].IN3
+B[0] => B[0].IN5
+B[1] => B[1].IN5
+B[2] => B[2].IN5
+B[3] => B[3].IN5
+B[4] => B[4].IN5
+B[5] => B[5].IN5
+B[6] => B[6].IN5
+B[7] => B[7].IN5
+B[8] => B[8].IN5
+B[9] => B[9].IN5
+B[10] => B[10].IN5
+B[11] => B[11].IN5
+B[12] => B[12].IN5
+B[13] => B[13].IN5
+B[14] => B[14].IN5
+B[15] => B[15].IN5
+B[16] => B[16].IN3
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[8] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[9] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[10] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[11] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[12] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[13] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[14] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[15] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[16] <= S.DB_MAX_OUTPUT_PORT_TYPE
+D[0] <= sub17x:suber.port2
+D[1] <= sub17x:suber.port2
+D[2] <= sub17x:suber.port2
+D[3] <= sub17x:suber.port2
+D[4] <= sub17x:suber.port2
+D[5] <= sub17x:suber.port2
+D[6] <= sub17x:suber.port2
+D[7] <= sub17x:suber.port2
+D[8] <= sub17x:suber.port2
+D[9] <= sub17x:suber.port2
+D[10] <= sub17x:suber.port2
+D[11] <= sub17x:suber.port2
+D[12] <= sub17x:suber.port2
+D[13] <= sub17x:suber.port2
+D[14] <= sub17x:suber.port2
+D[15] <= sub17x:suber.port2
+D[16] <= sub17x:suber.port2
+OF_S <= OF_S.DB_MAX_OUTPUT_PORT_TYPE
+OF_D <= sub17x:suber.port3
+
+
+|last|bitcomparex16:bitcomp
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+a[8] => a[8].IN2
+a[9] => a[9].IN2
+a[10] => a[10].IN2
+a[11] => a[11].IN2
+a[12] => a[12].IN2
+a[13] => a[13].IN2
+a[14] => a[14].IN2
+a[15] => a[15].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+b[8] => b[8].IN2
+b[9] => b[9].IN2
+b[10] => b[10].IN2
+b[11] => b[11].IN2
+b[12] => b[12].IN2
+b[13] => b[13].IN2
+b[14] => b[14].IN2
+b[15] => b[15].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+bgreat <= bgreat.DB_MAX_OUTPUT_PORT_TYPE
+equal <= equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|bitcomparex16:bitcomp|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gbit:c16.port3
+
+
+|last|XVIbitbrent:brent|gpbit:n0
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n1
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n2
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n3
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n4
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n5
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n6
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n7
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n8
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n9
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n10
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n11
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n12
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n13
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n14
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpbit:n15
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c2
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c3
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g0
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c4
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c5
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g1
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c6
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c7
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g2
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g3
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c8
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c9
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g4
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c10
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c11
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g5
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g6
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c12
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c13
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g7
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c14
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c15
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g8
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g9
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gpblk:g10
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|XVIbitbrent:brent|gbit:c16
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12
+A[0] => A[0].IN4
+A[1] => A[1].IN4
+A[2] => A[2].IN4
+A[3] => A[3].IN4
+A[4] => A[4].IN4
+A[5] => A[5].IN4
+A[6] => A[6].IN4
+A[7] => A[7].IN4
+A[8] => A[8].IN4
+A[9] => A[9].IN4
+A[10] => A[10].IN4
+A[11] => A[11].IN4
+A[12] => A[12].IN4
+A[13] => A[13].IN4
+A[14] => A[14].IN4
+A[15] => A[15].IN4
+A[16] => D.IN0
+A[16] => D.IN1
+B[0] => B[0].IN4
+B[1] => B[1].IN4
+B[2] => B[2].IN4
+B[3] => B[3].IN4
+B[4] => B[4].IN4
+B[5] => B[5].IN4
+B[6] => B[6].IN4
+B[7] => B[7].IN4
+B[8] => B[8].IN4
+B[9] => B[9].IN4
+B[10] => B[10].IN4
+B[11] => B[11].IN4
+B[12] => B[12].IN4
+B[13] => B[13].IN4
+B[14] => B[14].IN4
+B[15] => B[15].IN4
+B[16] => D.IN1
+B[16] => D.IN1
+D[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[8] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[9] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[10] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[11] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[12] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[13] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[14] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[15] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[16] <= D.DB_MAX_OUTPUT_PORT_TYPE
+OF <= OF.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+a[8] => a[8].IN2
+a[9] => a[9].IN2
+a[10] => a[10].IN2
+a[11] => a[11].IN2
+a[12] => a[12].IN2
+a[13] => a[13].IN2
+a[14] => a[14].IN2
+a[15] => a[15].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+b[8] => b[8].IN2
+b[9] => b[9].IN2
+b[10] => b[10].IN2
+b[11] => b[11].IN2
+b[12] => b[12].IN2
+b[13] => b[13].IN2
+b[14] => b[14].IN2
+b[15] => b[15].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+bgreat <= bgreat.DB_MAX_OUTPUT_PORT_TYPE
+equal <= equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:bor|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|borrowX16:rob|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gbit:c16.port3
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n0
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n1
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n2
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n3
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n4
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n5
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n6
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n7
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n8
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n9
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n10
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n11
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n12
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n13
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n14
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpbit:n15
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c2
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c3
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g0
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c4
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c5
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g1
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c6
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c7
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g2
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g3
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c8
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c9
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g4
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c10
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c11
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g5
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g6
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c12
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c13
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g7
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c14
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c15
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g8
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g9
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gpblk:g10
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub12|XVIbitbrent:brent|gbit:c16
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123
+A[0] => A[0].IN4
+A[1] => A[1].IN4
+A[2] => A[2].IN4
+A[3] => A[3].IN4
+A[4] => A[4].IN4
+A[5] => A[5].IN4
+A[6] => A[6].IN4
+A[7] => A[7].IN4
+A[8] => A[8].IN4
+A[9] => A[9].IN4
+A[10] => A[10].IN4
+A[11] => A[11].IN4
+A[12] => A[12].IN4
+A[13] => A[13].IN4
+A[14] => A[14].IN4
+A[15] => A[15].IN4
+A[16] => D.IN0
+A[16] => D.IN1
+B[0] => B[0].IN4
+B[1] => B[1].IN4
+B[2] => B[2].IN4
+B[3] => B[3].IN4
+B[4] => B[4].IN4
+B[5] => B[5].IN4
+B[6] => B[6].IN4
+B[7] => B[7].IN4
+B[8] => B[8].IN4
+B[9] => B[9].IN4
+B[10] => B[10].IN4
+B[11] => B[11].IN4
+B[12] => B[12].IN4
+B[13] => B[13].IN4
+B[14] => B[14].IN4
+B[15] => B[15].IN4
+B[16] => D.IN1
+B[16] => D.IN1
+D[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[8] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[9] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[10] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[11] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[12] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[13] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[14] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[15] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[16] <= D.DB_MAX_OUTPUT_PORT_TYPE
+OF <= OF.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+a[8] => a[8].IN2
+a[9] => a[9].IN2
+a[10] => a[10].IN2
+a[11] => a[11].IN2
+a[12] => a[12].IN2
+a[13] => a[13].IN2
+a[14] => a[14].IN2
+a[15] => a[15].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+b[8] => b[8].IN2
+b[9] => b[9].IN2
+b[10] => b[10].IN2
+b[11] => b[11].IN2
+b[12] => b[12].IN2
+b[13] => b[13].IN2
+b[14] => b[14].IN2
+b[15] => b[15].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+bgreat <= bgreat.DB_MAX_OUTPUT_PORT_TYPE
+equal <= equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:bor|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|borrowX16:rob|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gbit:c16.port3
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n0
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n1
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n2
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n3
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n4
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n5
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n6
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n7
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n8
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n9
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n10
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n11
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n12
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n13
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n14
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpbit:n15
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c2
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c3
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g0
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c4
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c5
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g1
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c6
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c7
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g2
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g3
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c8
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c9
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g4
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c10
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c11
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g5
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g6
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c12
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c13
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g7
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c14
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c15
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g8
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g9
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gpblk:g10
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:sub123|XVIbitbrent:brent|gbit:c16
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber
+A[0] => A[0].IN4
+A[1] => A[1].IN4
+A[2] => A[2].IN4
+A[3] => A[3].IN4
+A[4] => A[4].IN4
+A[5] => A[5].IN4
+A[6] => A[6].IN4
+A[7] => A[7].IN4
+A[8] => A[8].IN4
+A[9] => A[9].IN4
+A[10] => A[10].IN4
+A[11] => A[11].IN4
+A[12] => A[12].IN4
+A[13] => A[13].IN4
+A[14] => A[14].IN4
+A[15] => A[15].IN4
+A[16] => D.IN0
+A[16] => D.IN1
+B[0] => B[0].IN4
+B[1] => B[1].IN4
+B[2] => B[2].IN4
+B[3] => B[3].IN4
+B[4] => B[4].IN4
+B[5] => B[5].IN4
+B[6] => B[6].IN4
+B[7] => B[7].IN4
+B[8] => B[8].IN4
+B[9] => B[9].IN4
+B[10] => B[10].IN4
+B[11] => B[11].IN4
+B[12] => B[12].IN4
+B[13] => B[13].IN4
+B[14] => B[14].IN4
+B[15] => B[15].IN4
+B[16] => D.IN1
+B[16] => D.IN1
+D[0] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[1] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[2] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[3] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[4] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[5] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[6] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[7] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[8] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[9] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[10] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[11] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[12] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[13] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[14] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[15] <= D.DB_MAX_OUTPUT_PORT_TYPE
+D[16] <= D.DB_MAX_OUTPUT_PORT_TYPE
+OF <= OF.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+a[8] => a[8].IN2
+a[9] => a[9].IN2
+a[10] => a[10].IN2
+a[11] => a[11].IN2
+a[12] => a[12].IN2
+a[13] => a[13].IN2
+a[14] => a[14].IN2
+a[15] => a[15].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+b[8] => b[8].IN2
+b[9] => b[9].IN2
+b[10] => b[10].IN2
+b[11] => b[11].IN2
+b[12] => b[12].IN2
+b[13] => b[13].IN2
+b[14] => b[14].IN2
+b[15] => b[15].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+bgreat <= bgreat.DB_MAX_OUTPUT_PORT_TYPE
+equal <= equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:lowdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:woldut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:highdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+a[4] => a[4].IN2
+a[5] => a[5].IN2
+a[6] => a[6].IN2
+a[7] => a[7].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+b[6] => b[6].IN2
+b[7] => b[7].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:lowdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:woldut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:highdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut
+a[0] => a[0].IN2
+a[1] => a[1].IN2
+a[2] => a[2].IN2
+a[3] => a[3].IN2
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+agreat <= agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:lowdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:woldut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:highdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|bitcomparex16:bitc|bitcomparex8:hgihdut|bitcomparex4:hgihdut|bitcomparex2:hgihdut
+a[0] => and2.IN1
+a[1] => and1.IN0
+a[1] => xnor1.IN0
+b[0] => and2.IN1
+b[1] => xnor1.IN1
+b[1] => and1.IN1
+Agreat <= Agreat.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:bor|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+Bout <= borrow:bor16.port3
+D[0] <= borrow:bor1.port4
+D[1] <= borrow:bor2.port4
+D[2] <= borrow:bor3.port4
+D[3] <= borrow:bor4.port4
+D[4] <= borrow:bor5.port4
+D[5] <= borrow:bor6.port4
+D[6] <= borrow:bor7.port4
+D[7] <= borrow:bor8.port4
+D[8] <= borrow:bor9.port4
+D[9] <= borrow:bor10.port4
+D[10] <= borrow:bor11.port4
+D[11] <= borrow:bor12.port4
+D[12] <= borrow:bor13.port4
+D[13] <= borrow:bor14.port4
+D[14] <= borrow:bor15.port4
+D[15] <= borrow:bor16.port4
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor1
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor2
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor3
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor4
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor5
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor6
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor7
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor8
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor9
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor10
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor11
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor12
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor13
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor14
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor15
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|borrowX16:rob|borrow:bor16
+Bin => D.IN1
+Bin => temp3.IN1
+A => temp1.IN0
+A => temp2.IN0
+B => temp1.IN1
+B => temp2.IN1
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+D <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+sum[0] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[1] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[9] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[10] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[11] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[12] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[13] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[14] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+sum[15] <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= gbit:c16.port3
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n0
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n1
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n2
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n3
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n4
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n5
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n6
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n7
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n8
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n9
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n10
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n11
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n12
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n13
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n14
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpbit:n15
+Ai => Gii.IN0
+Ai => Pii.IN0
+Bi => Gii.IN1
+Bi => Pii.IN1
+Gii <= Gii.DB_MAX_OUTPUT_PORT_TYPE
+Pii <= Pii.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c2
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c3
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g0
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c4
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c5
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g1
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c6
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c7
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g2
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g3
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c8
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c9
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g4
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c10
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c11
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g5
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g6
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c12
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c13
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g7
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c14
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c15
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g8
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g9
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gpblk:g10
+Ghb => Gij.IN1
+Phb => Gij.IN0
+Phb => Pij.IN0
+Glb => Gij.IN1
+Plb => Pij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+Pij <= Pij.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|last|sub17x:suber|XVIbitbrent:brent|gbit:c16
+Gik => Gij.IN1
+Pik => Gij.IN0
+Gkj => Gij.IN1
+Gij <= Gij.DB_MAX_OUTPUT_PORT_TYPE
+
+

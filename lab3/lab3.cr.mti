@@ -1,36 +1,134 @@
-C:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv {1 {vlog -work work -sv -stats=none C:/Users/skalo/Desktop/ECE469/lab3/gpbit.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gpbit
-
-Top level modules:
-	gpbit
-
-} {} {}} C:/Users/skalo/Desktop/ECE469/lab3/gbit.sv {1 {vlog -work work -sv -stats=none C:/Users/skalo/Desktop/ECE469/lab3/gbit.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module gbit
-
-Top level modules:
-	gbit
-
-} {} {}} C:/Users/skalo/Desktop/ECE469/lab3/brenttest.sv {1 {vlog -work work -sv -stats=none {C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module testbrentadd
-
-Top level modules:
-	testbrentadd
-
-} {} {}} C:/Users/skalo/Desktop/ECE469/lab3/gpblk.sv {1 {vlog -work work -sv -stats=none {C:\Users\skalo\Desktop\ECE469\lab3\gpblk.sv}
+{C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gpblk.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gpblk.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module gpblk
 
 Top level modules:
 	gpblk
 
-} {} {}} C:/Users/skalo/Desktop/ECE469/lab3/16bitbrent.sv {1 {vlog -work work -sv -stats=none {C:\Users\skalo\Desktop\ECE469\lab3\16bitbrent.sv}
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/2bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/2bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitcomparex2
+
+Top level modules:
+	bitcomparex2
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitbrent.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitbrent.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module XVIbitbrent
 
 Top level modules:
 	XVIbitbrent
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testfinal.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testfinal.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testfinal
+
+Top level modules:
+	testfinal
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/4bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/4bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitcomparex4
+
+Top level modules:
+	bitcomparex4
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrowX16.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrowX16.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module borrowX16
+
+Top level modules:
+	borrowX16
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testborrow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testborrow.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testborrow
+
+Top level modules:
+	testborrow
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitcomparex16
+
+Top level modules:
+	bitcomparex16
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gbit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gbit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gbit
+
+Top level modules:
+	gbit
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/8bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/8bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitcomparex8
+
+Top level modules:
+	bitcomparex8
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test2bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test2bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test2bitcompare
+
+Top level modules:
+	test2bitcompare
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testsub.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testsub.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testsub
+
+Top level modules:
+	testsub
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/sub17x.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/sub17x.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sub17x
+
+Top level modules:
+	sub17x
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testborrowX16.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/testborrowX16.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testborrowX16
+
+Top level modules:
+	testborrowX16
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/brenttest.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/brenttest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbrentadd
+
+Top level modules:
+	testbrentadd
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module borrow
+
+Top level modules:
+	borrow
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/mux2_1.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/mux2_1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test16bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test16bitcompare.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test16bitcompare
+
+Top level modules:
+	test16bitcompare
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gpbit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/gpbit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module gpbit
+
+Top level modules:
+	gpbit
 
 } {} {}}
