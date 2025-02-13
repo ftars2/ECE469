@@ -350,7 +350,7 @@ w1739333819
 8C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv
 FC:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv
 !i122 217
-L0 1 24
+Z18 L0 1 24
 R5
 r1
 !s85 0
@@ -358,6 +358,31 @@ r1
 R16
 !s107 C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\skalo\Desktop\ECE469\lab3\brenttest.sv|
+!i113 1
+R7
+R8
+vtestfinal
+R0
+!s110 1739416839
+!i10b 1
+!s100 D1@G5:PnQI9e9PoC`Khz?0
+R2
+Io=5KT2?Dcmd5:gB2lO@HN2
+R3
+S1
+R14
+w1739416822
+8C:/Users/skalo/Desktop/ECE469/lab3/testfinal.sv
+FC:/Users/skalo/Desktop/ECE469/lab3/testfinal.sv
+!i122 220
+R18
+R5
+r1
+!s85 0
+31
+!s108 1739416839.000000
+!s107 C:/Users/skalo/Desktop/ECE469/lab3/testfinal.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/skalo/Desktop/ECE469/lab3/testfinal.sv|
 !i113 1
 R7
 R8
