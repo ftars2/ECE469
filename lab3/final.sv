@@ -5,5 +5,5 @@ logic add1,addcarry;
 assign add1= (~(A[16]|B[16])|(A[16]|B[16]));//if 1/both num pos or both neg, add normally, else sub needed
 logic [15:0], ts1;//temp sum
 XVIbitbrent brent(A[15:0],B[15:0],ts1,addcarry);//if add1 is 1, sum= ts1, Sc=sum carry
-
+assign tsub=bgreat ? pmetD : tempD;
 endmodule

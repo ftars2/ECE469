@@ -9,7 +9,9 @@ assign tsub=bgreat ? pmetD : tempD;
 assign tBout=bgreat ? tuoB : Bout;
 XVIbitbrent brent(A[15:0],B[15:0],tadd,addcarry);
 assign finD=(A[16]^B[16]) ? tadd : tsub;
-assign OF=bgreat ? addcarry : tBout;
-assign D[15:0]=equal&(~(A[16]^B[16])) ? finD : tBout;
-assign D[16]= (agreat&A[16])|(bgreat&(~B[16]));
+assign OF=(A[16]^B[16]) ? addcarry : tBout;
+assign D[15:0]=equal&(~(A[16]^B[16])) ? 16'b0 : finD;
+
+assign D[16]= (~(D[0] & D[1] &D[2] & D[3] & D[4] & D[5] & D[6] & D[7] & D[8] & D[9] & D[10] & D[15]& D[14]& D[13]& D[12]& D[11])&equal&(A[16]^B[16]))|(agreat&A[16])|(bgreat&(~B[16]));
+
 endmodule

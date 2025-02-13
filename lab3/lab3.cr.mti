@@ -12,6 +12,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bitcomparex2
 
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitbrent.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/16bitbrent.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module XVIbitbrent
+
+Top level modules:
+	XVIbitbrent
+
 } {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/4bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/4bitcompare.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module bitcomparex4
@@ -72,12 +79,26 @@ Top level modules:
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 ** Error: (vlog-13069) C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/final.sv(1): near "final": syntax error, unexpected "SystemVerilog keyword 'final'".
 
-} {3.0 4.0} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv}
+} {3.0 4.0} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/brenttest.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/brenttest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbrentadd
+
+Top level modules:
+	testbrentadd
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/borrow.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module borrow
 
 Top level modules:
 	borrow
+
+} {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/mux2_1.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/mux2_1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
 
 } {} {}} {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test16bitcompare.sv} {1 {vlog -work work -sv -stats=none {C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab3/test16bitcompare.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
