@@ -5,6 +5,6 @@ output logic zero);
 logic [31:0] m1o,and1,or1;
 mux2_1_32 m1(B,(~B),F[2],m1o);
 assign and1=m1o&A;
-assign or1=m10|A;
+assign or1=m1o|A;
 mux4_1_32 m2(and1,or1,ALU,zeroextend);
 endmodule
