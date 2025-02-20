@@ -9,5 +9,9 @@ assign or1=BB|A;
 assign adds=BB+A+F[2];
 logic [30:0] zeros=31'b0;
 assign zeroextend={zeros,adds[31]};
-mux4_1_32 m2(and1,or1,adds,zeroextend,F[1:0]);
+mux4_1_32 m2(and1,or1,adds,zeroextend,F[1:0],Y);
+assign zero= ~(Y[31] | Y[30] | Y[29] | Y[28] | Y[27] | Y[26] | Y[25] | Y[24] | 
+Y[23] | Y[22] | Y[21] | Y[20] | Y[19] | Y[18] | Y[17] | Y[16] | 
+Y[15] | Y[14] | Y[13] | Y[12] | Y[11] | Y[10] | Y[9]  | Y[8]  | 
+Y[7]  | Y[6]  | Y[5]  | Y[4]  | Y[3]  | Y[2]  | Y[1]  | Y[0]);
 endmodule
