@@ -10,7 +10,7 @@ module testbench(
     string line;
     alu dut(A,B,F,Y,zero);
     initial begin 
-    file=$fopen("testvector.txt","r");
+    file=$fopen("tv.txt","r");
     if (file == 0) begin
       $display("Error: Could not open test vector file.");
       $finish;
@@ -19,10 +19,10 @@ module testbench(
         r = $fgets(line, file);
         if (r != 0) begin
             
-            r = $sscanf(line, "%d %b %b %b %b",F,A,B,TY,Tzero);
-            if (r != 2) begin
-            $display("Error: Incorrect test vector format in file.");
-            continue;
+            r = $sscanf(line, "%d %h %h %h %b",F,A,B,TY,Tzero);
+            if (r != 5) begin
+                $display("Error: Incorrect test vector format in file.");
+                continue;
             end
 
             // Apply input
@@ -38,7 +38,7 @@ module testbench(
         end
 
         $fclose(file);
-        $finish;
+
     end
 
 

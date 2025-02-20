@@ -11,3 +11,7 @@ lab3/work/_lib1_9.qdb
 lab3/work/_lib.qdb
 lab3/work/_info
 lab4/work
+*.qdb
+/lab4/work
+*.mpf
+*.mti
