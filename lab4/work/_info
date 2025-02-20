@@ -11,7 +11,7 @@ cModel Technology
 dE:/intelModelSim
 valu
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1740085495
+Z1 !s110 1740089254
 !i10b 1
 !s100 CHF[inO7zP;ROk>a5@aQe3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,16 +19,16 @@ Ic8N<ezC5YUOD@4Loz3bT92
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4
-w1740085490
+w1740085515
 8C:\Users\panda\Documents\ece texts books\ece 469\ECE469\lab4\alu.sv
 FC:\Users\panda\Documents\ece texts books\ece 469\ECE469\lab4\alu.sv
-!i122 116
+!i122 131
 L0 1 17
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1740085495.000000
+Z6 !s108 1740089254.000000
 !s107 C:\Users\panda\Documents\ece texts books\ece 469\ECE469\lab4\alu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\panda\Documents\ece texts books\ece 469\ECE469\lab4\alu.sv|
 !i113 1
@@ -47,7 +47,7 @@ R4
 w1739918384
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/extend1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/extend1_32.sv
-!i122 117
+!i122 132
 L0 1 34
 R5
 r1
@@ -72,7 +72,7 @@ R4
 w1739917921
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/mux2_1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/mux2_1_32.sv
-!i122 118
+!i122 133
 L0 1 11
 R5
 r1
@@ -94,10 +94,10 @@ I@b`gi]o[MbjGaiIQ0j3Qh2
 R3
 S1
 R4
-w1739918302
+w1740087648
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/mux4_1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/mux4_1_32.sv
-!i122 119
+!i122 134
 L0 1 7
 R5
 r1
@@ -122,7 +122,7 @@ R4
 w1740084478
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testalu.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testalu.sv
-!i122 120
+!i122 135
 L0 1 16
 R5
 r1
@@ -131,6 +131,31 @@ r1
 R6
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testalu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testalu.sv|
+!i113 1
+R7
+R8
+vtestbench
+R0
+R1
+!i10b 1
+!s100 E>R]O;CAVn<2kQba6QG>X3
+R2
+ITISf5LQ48bjTgReaO0fUo1
+R3
+S1
+R4
+w1740089250
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testbench.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testbench.sv
+!i122 136
+L0 1 46
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4/testbench.sv|
 !i113 1
 R7
 R8
