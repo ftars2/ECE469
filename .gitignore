@@ -17,3 +17,8 @@ lab4/work
 *.mti
 lab4/lab4.cr.mti
 *.mpf
+/lab4/work
+*.mti
+*.mpf
+/lab4/work
+
