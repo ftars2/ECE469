@@ -6,3 +6,21 @@
 # Compile of testalu.sv was successful.
 # Compile of testbench.sv was successful.
 # 6 compiles, 0 failed with no errors.
+# Compile of alu.sv was successful.
+# Compile of extend1_32.sv was successful.
+# Compile of mux2_1_32.sv was successful.
+# Compile of mux4_1_32.sv was successful.
+# Compile of testalu.sv was successful.
+# Compile of testbench.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 12:27:50 on Feb 25,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.alu
+# Loading work.mux2_1_32
+# Loading work.extend1_32
+# Loading work.mux4_1_32
+# End time: 14:35:49 on Feb 25,2025, Elapsed time: 2:07:59
+# Errors: 0, Warnings: 7
