@@ -27,3 +27,8 @@ lab4/lab4.cr.mti
 *.wlf
 *.mpf
 *.mti
+lab4/work/_lib.qdb
+lab4/work/_info
+lab4/vsim.wlf
+lab4/lab4.mpf
+lab4/lab4.cr.mti
