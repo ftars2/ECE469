@@ -20,6 +20,6 @@ assign val[5]=A[31]&~B[31]&Diff[31];
 //assign val[6]=A[31]&B[31]&~Diff[31];
 // -A -B -Diff->1
 assign val[7]=A[31]&B[31]&Diff[31];
-{31'b0,(val[1]|val[4]|val[5]|val[7])}
+assign out= {31'b0,(val[1]|val[4]|val[5]|val[7])};
 
 endmodule
