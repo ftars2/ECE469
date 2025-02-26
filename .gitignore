@@ -22,3 +22,8 @@ lab4/lab4.cr.mti
 *.mpf
 /lab4/work
 
+/lab4/work
+/lab4/work
+*.wlf
+*.mpf
+*.mti
