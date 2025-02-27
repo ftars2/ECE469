@@ -2,7 +2,7 @@ module slt(input logic [31:0] A, B,input logic [32:0] Diff, output logic [32:0]o
 
 // A B Diff slt?
 
-logic val[7:0];
+logic [7:0] val;
 
 // +A +B +Diff->0
 // assign val[0]=~A[31]&~B[31]&~Diff[31]; 
