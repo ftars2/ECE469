@@ -31,7 +31,9 @@ module finalTB(
             #10;  // Wait for DUT to process
 
             // Compare output
-            if ((Y !== TY)||(zero !== Tzero)||(TOF!==OF)) begin
+            if ((TOF==OF)&&((Y !== TY)||(zero !== Tzero)))begin
+            $display("OVERFLOW: Input: A=%b,B=%b,F=%b |Expected: Y=%d Zero=%b OF=%b, Got: Y=%d zero=%b OF=%b",A,B, F, TY,Tzero, TOF, Y, zero, OF);
+            end else if ((Y !== TY)||(zero !== Tzero)||(TOF!==OF)) begin
             $display("FAIL: Input: A=%d,B=%d,F=%b |Expected: Y=%d Zero=%b OF=%b, Got: Y=%d zero=%b OF=%b",A,B, F, TY,Tzero, TOF, Y, zero, OF);
             end else begin
             $display("PASS: Input: A=%b,B=%b,F=%b |Expected: Y=%d Zero=%b OF=%b, Got: Y=%d zero=%b OF=%b",A,B, F, TY,Tzero, TOF, Y, zero, OF);

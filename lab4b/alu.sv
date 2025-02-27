@@ -8,13 +8,13 @@ logic [31:0] adds;
 mux2_1_32 m1(B,(~B),F[2],BB);
 assign and1=BB&A;
 assign or1=BB|A;
-addof aaa(A,B,F[2],adds,OF);
+addof aaa(A,BB,F[2],adds,OF);
 // assign adds=BB+A+F[2];
 // slt setl(A,B,adds,zeroextend);
-zeroEX z1(in,OF,zeroextend);
+zeroEX z1(adds,OF,zeroextend);
 
 mux4_1_32 m2(and1,or1,adds,zeroextend,F[1:0],Y);
-// mux2_1_1 m3(aof,zeroextend[32],F[1],OF);
+
 assign zero= ~(Y[31] | Y[30] | Y[29] | Y[28] | Y[27] | Y[26] | Y[25] | Y[24] | 
 Y[23] | Y[22] | Y[21] | Y[20] | Y[19] | Y[18] | Y[17] | Y[16] | 
 Y[15] | Y[14] | Y[13] | Y[12] | Y[11] | Y[10] | Y[9]  | Y[8]  | 
