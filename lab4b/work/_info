@@ -11,7 +11,7 @@ cModel Technology
 dE:/intelModelSim
 vaddof
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1740631428
+Z1 !s110 1740631794
 !i10b 1
 !s100 XjN7;e1l:EPdP<oWO2JBS3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b
 w1740629400
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/addof.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/addof.sv
-!i122 197
+!i122 207
 L0 1 14
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1740631428.000000
+Z6 !s108 1740631794.000000
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/addof.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/addof.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z7 o-work work -sv
 Z8 tCvgOpt 0
 valu
 R0
-R1
+Z9 !s110 1740631793
 !i10b 1
 !s100 QJhDECe3S=@]eEHEcg`8H2
 R2
@@ -47,13 +47,13 @@ R4
 w1740630823
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/alu.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/alu.sv
-!i122 188
+!i122 198
 L0 1 23
 R5
 r1
 !s85 0
 31
-!s108 1740631427.000000
+Z10 !s108 1740631793.000000
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/alu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/alu.sv|
 !i113 1
@@ -61,7 +61,7 @@ R7
 R8
 vextend1_32
 R0
-R1
+R9
 !i10b 1
 !s100 0hh3E@U:[M0FNVaD0CcmF1
 R2
@@ -72,13 +72,13 @@ R4
 w1739918384
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/extend1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/extend1_32.sv
-!i122 189
+!i122 199
 L0 1 34
 R5
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/extend1_32.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/extend1_32.sv|
 !i113 1
@@ -86,7 +86,7 @@ R7
 R8
 vfinalTB
 R0
-R1
+R9
 !i10b 1
 !s100 h?bW4^R8i5>cG2LY@AGhS1
 R2
@@ -97,13 +97,13 @@ R4
 w1740631425
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/finalTB.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/finalTB.sv
-!i122 190
+!i122 200
 L0 1 50
 R5
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/finalTB.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/finalTB.sv|
 !i113 1
@@ -123,13 +123,13 @@ R4
 w1740625867
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_1.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_1.sv
-!i122 191
+!i122 201
 L0 1 10
 R5
 r1
 !s85 0
 31
-R6
+R10
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_1.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_1.sv|
 !i113 1
@@ -148,7 +148,7 @@ R4
 w1739917921
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux2_1_32.sv
-!i122 192
+!i122 202
 L0 1 11
 R5
 r1
@@ -173,7 +173,7 @@ R4
 w1740087648
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux4_1_32.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/mux4_1_32.sv
-!i122 193
+!i122 203
 L0 1 7
 R5
 r1
@@ -198,7 +198,7 @@ R4
 w1740084478
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/testalu.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/testalu.sv
-!i122 194
+!i122 204
 L0 1 16
 R5
 r1
@@ -223,7 +223,7 @@ R4
 w1740090167
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/testbench.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/testbench.sv
-!i122 195
+!i122 205
 L0 1 46
 R5
 r1
@@ -248,7 +248,7 @@ R4
 w1740629203
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/zeroEX.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab4b/zeroEX.sv
-!i122 196
+!i122 206
 L0 1 5
 R5
 r1
