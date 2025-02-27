@@ -32,3 +32,5 @@ lab4/work/_info
 lab4/vsim.wlf
 lab4/lab4.mpf
 lab4/lab4.cr.mti
+*.mti
+*.mpf
