@@ -8,7 +8,8 @@ logic [31:0] adds;
 mux2_1_32 m1(B,(~B),F[2],BB);
 assign and1=BB&A;
 assign or1=BB|A;
-assign adds=BB+A+F[2];
+addof aaa(A,B,F[2],adds,OF);
+// assign adds=BB+A+F[2];
 // slt setl(A,B,adds,zeroextend);
 zeroEX z1(in,OF,zeroextend);
 
