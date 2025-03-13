@@ -1,4 +1,4 @@
-module init( input logic clk, init, swapxy, input logic [2:0] x, y,
+module main( input logic clk, init, swapxy, input logic [2:0] x, y,
 output logic [3:0] r[7:0] 
 );
 logic [3:0] newy, newx;
