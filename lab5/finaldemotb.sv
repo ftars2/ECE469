@@ -11,6 +11,12 @@ initial begin
     #10; swapxy=1'b1;
     #10; clk=1;
     #10; clk=0;
+    #10; x=3'b101; y=3'b110;    
+    #10; clk=1;
+    #10; clk=0;
+    #10; x=3'b111; y=5;
+    #10; clk=1;
+    #10; clk=0;
 end
 
 endmodule
