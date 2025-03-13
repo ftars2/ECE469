@@ -1,4 +1,4 @@
-module decoder3_8(input logic [2:0] a, output logic y[7:0]);
+module decoder3_8(input logic [2:0] a, output logic [7:0] y);
 
 always_comb
 case (a)
