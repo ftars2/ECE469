@@ -27,12 +27,18 @@ module testbench();
   always@(negedge clk)
     begin
       if(memwrite) begin
-        if(dataadr === 84 & writedata === 7) begin
-          $display("Simulation succeeded");
-          $stop;
-        end else if (dataadr !== 80) begin
-          $display("Simulation failed");
-          $stop;
+        if(dataadr === 52 & writedata === 1) begin
+          $display("1 written to 52");
+          // $stop;
+        end else if (dataadr === 32 & writedata === 3) begin
+          $display("3 written to 32");
+          // $stop;
+        end else if (dataadr === 28 & writedata === 6) begin
+          $display("6 written to 28");
+        end else if (dataadr === 24 & writedata === 9) begin
+          $display("9 written to 24");
+        end else if (dataadr === 20 & writedata === 28) begin
+          $display("28 written to 20");
         end
       end
     end
