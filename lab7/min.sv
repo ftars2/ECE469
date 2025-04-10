@@ -6,7 +6,7 @@ module min(
 
 logic notv[7:0];
 
-assign notv='{v[7],v[6],v[5],v[4],v[3],v[2],v[1],v[0]};
+assign notv={v[7],v[6],v[5],v[4],v[3],v[2],v[1],v[0]};
 logic [2:0] nota;
 pe pri(notv, nota, en);
 
