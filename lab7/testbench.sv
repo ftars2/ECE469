@@ -16,6 +16,7 @@ logic v;
 integer file, r;
 string line;
 int count=0;
+int fail=0;
 register DUT(clk, setD, init,newD,D_lookup, valid, minAddr, maxAddr);
 initial begin 
     file=$fopen("tv.txt","r");
@@ -45,12 +46,17 @@ initial begin
                count++;
             if ((minAddr !== min)||(max !== maxAddr)||(v!== valid)) begin
             $display("#%d FAIL: Expected: min=%b,max=%b,v=%b Got: minAddr=%b maxAddr=%b v=%b",count,min, max, v,minAddr,maxAddr, valid);
+            fail=1;
             end else begin
             $display("#%d PASS: Expected: min=%b,max=%b,v=%b Got: minAddr=%b maxAddr=%b v=%b",count, min, max, v,minAddr,maxAddr, valid);
             end
         end
         end
-        $display("passed all test input cases, great job!");
+        if(fail!==1)begin
+            $display("passed all test input cases, great job!");
+        end else begin
+            $display("failed, better luck next time!");
+        end
         $fclose(file);
 
     end

@@ -3,11 +3,11 @@ module max(
     output logic [2:0] a,
     output logic en
 );
+logic [2:0] nota;
 
-pe pri(v, a, en);
-
-assign a[2] = a[2] & en;
-assign a[1] = a[1] & en;
-assign a[0] = a[0] & en;
+pe pri(v, nota, en);
+assign a[2] = nota[2] & en;
+assign a[1] = nota[1] & en;
+assign a[0] = nota[0] & en;
 
 endmodule

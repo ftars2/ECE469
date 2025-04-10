@@ -1,5 +1,5 @@
 module lookup(
-    input logic [3:0] D_look, r[7:0],
+    input logic [3:0] D_look,input logic [3:0] r[7:0],
     output logic  v[7:0]
 );
 

@@ -2,6 +2,7 @@ module register(input logic clk, setd, init,input logic [3:0]newd, D_lookup,outp
     logic [3:0]R[7:0];
     logic v[7:0],V[7:0];
     logic [2:0] min,max;
+    logic val;
     //stores values in registers
     flop a0(newd, 4'b1000, V[0], init, setd, R[0]);
     flop a1(newd, 4'b1001, V[1], init, setd, R[1]);    
@@ -12,20 +13,21 @@ module register(input logic clk, setd, init,input logic [3:0]newd, D_lookup,outp
     flop a6(newd, 4'b1110, V[6], init, setd, R[6]);
     flop a7(newd, 4'b1111, V[7], init, setd, R[7]);    
 
-    mainlog log(D_lookup,R,min,max,v);
+    mainlog log(D_lookup,R,min,max,V);
     //stores values of valid
-    flip b0(v[0], clk, init, V[0]);
-    flip b1(v[1], clk, init, V[1]);
-    flip b2(v[2], clk, init, V[2]);
-    flip b3(v[3], clk, init, V[3]);
-    flip b4(v[4], clk, init, V[4]);
-    flip b5(v[5], clk, init, V[5]);
-    flip b6(v[6], clk, init, V[6]);
-    flip b7(v[7], clk, init, V[7]);
+    // flip b0(v[0], clk, init, V[0]);
+    // flip b1(v[1], clk, init, V[1]);
+    // flip b2(v[2], clk, init, V[2]);
+    // flip b3(v[3], clk, init, V[3]);
+    // flip b4(v[4], clk, init, V[4]);
+    // flip b5(v[5], clk, init, V[5]);
+    // flip b6(v[6], clk, init, V[6]);
+    // flip b7(v[7], clk, init, V[7]);
     
     
     DFFR #(3) ma(clk,init,1'b1,max,3'b000,Max);
     DFFR #(3) mi(clk,init,1'b1,min,3'b000,Min);    
-    assign valid=V[0]|V[1]|V[2]|V[3]|V[4]|V[5]|V[6]|V[7];
+    assign val=V[0]|V[1]|V[2]|V[3]|V[4]|V[5]|V[6]|V[7];
+    DFFR #(1) vid(clk,init,1'b1,val,1'b0,valid);
 
 endmodule
