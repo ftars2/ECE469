@@ -1,4 +1,4 @@
-module flop(input logic [3:0] newd, pre, input logic Vx, re, clk, output logic old);
+module flop(input logic [3:0] newd, pre, input logic Vx, re, clk, output logic [3:0] old);
     DFFR #(4) a(clk,re,Vx,newd,pre,old);
 
 endmodule

@@ -1,6 +1,6 @@
 module lookup(
     input logic [3:0] D_look, r[7:0],
-    output logic [7:0] v
+    output logic  v[7:0]
 );
 
 logic [3:0] tempr[7:0];
@@ -23,7 +23,5 @@ ftouno cinco(tempr[4], v[4]);
 ftouno seis(tempr[5], v[5]);
 ftouno siete(tempr[6], v[6]);
 ftouno ocho(tempr[7], v[7]);
-
-assign 
 
 endmodule

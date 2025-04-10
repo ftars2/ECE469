@@ -1,10 +1,10 @@
 module max( 
-    input logic [7:0] v,
+    input logic v[7:0],
     output logic [2:0] a,
     output logic en
 );
 
-pe priority(v, a, en);
+pe pri(v, a, en);
 
 assign a[2] = a[2] & en;
 assign a[1] = a[1] & en;
