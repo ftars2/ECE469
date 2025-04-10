@@ -42,12 +42,12 @@ initial begin
                 #10;  // Wait for DUT to process
             // end
             // Compare output
+               count++;
             if ((minAddr !== min)||(max !== maxAddr)||(v!== valid)) begin
             $display("#%d FAIL: Expected: min=%b,max=%b,v=%b Got: minAddr=%b maxAddr=%b v=%b",count,min, max, v,minAddr,maxAddr, valid);
             end else begin
             $display("#%d PASS: Expected: min=%b,max=%b,v=%b Got: minAddr=%b maxAddr=%b v=%b",count, min, max, v,minAddr,maxAddr, valid);
             end
-               count++;
         end
         end
         $display("passed all test input cases, great job!");
