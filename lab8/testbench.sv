@@ -8,9 +8,9 @@ integer file, r;
 string line;
 int count=0;
 int fail=0;
-register DUT(clk, in, rest,rE,rC, r4, r6, r9);
+fsm DUT(clk, in, rest,rE,rC, r4, r6, r9);
 initial begin 
-    file=$fopen("tv.txt","r");
+    file=$fopen("tvc.txt","r");
     if (file == 0) begin
       $display("Error: Could not open test vector file.");
       $finish;
