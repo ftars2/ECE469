@@ -23,8 +23,8 @@ begin
                 else        next_state = s1100;
         s110:   if(in)   next_state = s1;
                 else        next_state = s1100;
-        s1100:  if(in)   next_state = init;
-                else        next_state = s1001;
+        s1100:  if(in)   next_state = s1001;
+                else        next_state = init;
         s10:    if(in)   next_state = s1;
                 else        next_state = s100;
         s1001:  if(in)   next_state = s11;

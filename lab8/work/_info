@@ -11,24 +11,24 @@ cModel Technology
 dE:/intelModelSim
 vfsm
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1744752439
+Z1 !s110 1744753002
 !i10b 1
-!s100 z7d^T;olm33[QYmn<QK3g2
+!s100 BkZWg@XTJNmFNiH<RkY>91
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IcLKFPS^0WF4nC;;3:S=mX0
+IncDJXZEP@aHLDm^9n7<QS2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8
-w1744748659
+w1744752957
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/fsm.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/fsm.sv
-!i122 17
+!i122 23
 L0 1 54
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1744752439.000000
+Z6 !s108 1744753002.000000
 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/fsm.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/fsm.sv|
 !i113 1
@@ -38,16 +38,16 @@ vtestbench
 R0
 R1
 !i10b 1
-!s100 X2[P8d1nV0jZBXJFmfK7`1
+!s100 dFShScGln2=1G0NYaobaf3
 R2
-I28A]E0@R>`a3Gh5zDlZ3<0
+I6P;?3XMZ2Me`PZc9U90Yb3
 R3
 S1
 R4
-w1744752435
+w1744752997
 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/testbench.sv
 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab8/testbench.sv
-!i122 18
+!i122 24
 L0 1 60
 R5
 r1

@@ -10,7 +10,7 @@ int count=0;
 int fail=0;
 fsm DUT(clk, in, rest,rE,rC, r4, r6, r9);
 initial begin 
-    file=$fopen("tvr.txt","r");
+    file=$fopen("tvc.txt","r");
     if (file == 0) begin
       $display("Error: Could not open test vector file.");
       $finish;
@@ -24,10 +24,10 @@ initial begin
                 $display("Error: Incorrect test vector format in file.");
                 continue;
             end
+            #10;
             clk=1;
             #10;
             clk=0;
-            #10;
             // Apply input
             // if(first==0)begin
             //     #20;
