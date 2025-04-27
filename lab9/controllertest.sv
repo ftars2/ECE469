@@ -29,7 +29,7 @@ initial begin
         r = $fgets(line, file);
         if (r != 0) begin
             
-            r = $sscanf(line, "%b %b %b %b %b %b %b",reset, op,funcht,zero,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln);
+            r = $sscanf(line, "%b %b %b %b %b %b %b %b %b %b %b %b %b %b %b",reset, op,funcht,zero,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln);
             if (r != 15) begin
                 $display("Error: Incorrect test vector format in file.");
                 continue;
