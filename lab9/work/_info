@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -10,79 +11,104 @@ cModel Technology
 dE:/intelModelSim
 valudec
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1745785611
+Z1 !s110 1745792431
 !i10b 1
-!s100 kc6SK]nFe@BKoHaDXXNm]2
+!s100 ZAcnaT]H1^o?2^jM=:_XP2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IzK2dL[SFbX^:_]=Dzg3QC0
+IBZWZWDc99gNWJDQc>29CA2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9
-Z5 w1745785170
+Z5 w1745788869
 Z6 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv
 Z7 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv
-!i122 0
-L0 141 12
+!i122 15
+L0 161 27
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1745785611.000000
-!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
-Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
+Z9 !s108 1745792431.000000
+Z10 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
 !i113 1
-Z11 o-work work -sv
-Z12 tCvgOpt 0
+Z12 o-work work -sv
+Z13 tCvgOpt 0
 vcontroller
 R0
 R1
 !i10b 1
-!s100 n1;S_^S?13>QChnJ4bJ`91
+!s100 JDWE2J<o^[RAK0Ro``GQ41
 R2
-IPLbFJ?A_PXD:IC0@YU:jg0
+IRU<JVZJ5JFeVZKilPFB6X3
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 0
-L0 31 24
+!i122 15
+L0 31 27
 R8
 r1
 !s85 0
 31
 R9
-Z13 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
 vdatapath
 R0
 R1
 !i10b 1
-!s100 TmhjFD9DEdT?]egR6JVCR2
+!s100 >MG]hX8`:jU6<V3TFRP?b1
 R2
-IfR=K:R@nbUDS6MX1o[e3<2
+IJj9lC6BhmF<>:A7M6aZ<Q1
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 0
-L0 165 42
+!i122 15
+L0 200 42
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
+vmaindec
+R0
+R1
+!i10b 1
+!s100 0@8X3NWhSb;nALNY84in13
+R2
+I3J6jVW:F<`ZVRNc7<ECj[1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 15
+L0 59 101
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
 vmips
 R0
 R1
@@ -96,65 +122,90 @@ R4
 R5
 R6
 R7
-!i122 0
+!i122 15
 L0 8 22
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
 vmux3
 R0
 R1
 !i10b 1
-!s100 ;`W01JLzE1m9A^IQW?1kJ0
+!s100 cW]m:H7ggRbE7oAKoXlfM2
 R2
-IzbPO0_O>ZLQo<;]M4_gP41
+IUmHUiKAH4oAdO=JL8zl@C3
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 0
-L0 209 7
+!i122 15
+L0 244 7
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
 vmux4
 R0
 R1
 !i10b 1
-!s100 X?fmKh_fA8__?1]cVckaV0
+!s100 zzU;ZUc=??DKMkSg:<C0<2
 R2
-ICAYWYVZ;414e4??`4PLi13
+IJZ]Mb9fSdP2;KSFC=_`YL2
 R3
 S1
 R4
 R5
 R6
 R7
-!i122 0
-L0 217 13
+!i122 15
+L0 252 13
 R8
 r1
 !s85 0
 31
 R9
-R13
 R10
-!i113 1
 R11
+!i113 1
 R12
+R13
+vtestbench
+R0
+R1
+!i10b 1
+!s100 W:;ecoO1nJ3Y1EhEg<6ZE2
+R2
+IAmzBNh__@NokcV6GddNiV3
+R3
+S1
+R4
+w1745792426
+8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/controllertest.sv
+FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/controllertest.sv
+!i122 16
+L0 1 70
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/controllertest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/controllertest.sv|
+!i113 1
+R12
+R13

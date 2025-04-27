@@ -96,7 +96,10 @@ module maindec(input  logic       clk, reset,
   // two states, FETCH and DECODE, for you.
 
   // next state logic
-  always_comb
+  always_comb 
+    begin
+      
+    
     case(state)
       FETCH:   nextstate <= DECODE;
       DECODE:  case(op)
@@ -114,18 +117,18 @@ module maindec(input  logic       clk, reset,
                SW: nextstate <= MEMWR;
                default: nextstate <= 4'bx;//shant happen
               endcase
-      MEMRD: nextstate <= MEMWB
-      MEMWB: nextstate <= FETCH
-      MEMWR: nextstate <= FETCH
-      RTYPEEX: nextstate <= RTYPEWB
-      RTYPEWB: nextstate <= FETCH
-      BEQEX:   nextstate <= FETCH
-      ADDIEX:  nextstate <= ADDIWB
-      ADDIWB:  nextstate <= FETCH
-      JEX:     nextstate <= FETCH
+      MEMRD: nextstate <= MEMWB;
+      MEMWB: nextstate <= FETCH;
+      MEMWR: nextstate <= FETCH;
+      RTYPEEX: nextstate <= RTYPEWB;
+      RTYPEWB: nextstate <= FETCH;
+      BEQEX:   nextstate <= FETCH;
+      ADDIEX:  nextstate <= ADDIWB;
+      ADDIWB:  nextstate <= FETCH;
+      JEX:     nextstate <= FETCH;
       default: nextstate <= 4'bx; // should never happen
     endcase
-
+    end
   // output logic
   assign {pcwrite, memwrite, irwrite, regwrite, 
           alusrca, branch, iord, memtoreg, regdst,
