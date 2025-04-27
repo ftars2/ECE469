@@ -1,0 +1,4 @@
+reset, op,funcht,zero,pcen,memwr,irwr,regwr,alusrca,iord,mem2reg,regdest,alusrcb,pcsrc,alucontrol
+
+1 000000 100000 0 
+0 000000 100000 0 
