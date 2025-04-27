@@ -50,6 +50,9 @@ module controller(input  logic       clk, reset,
   // Add combinational logic (i.e. an assign statement) 
   // to produce the PCEn signal (pcen) from the branch, 
   // zero, and pcwrite signals
+  logic brrrrzero;
+  assign brrrrzero = branch & zero;
+  assign pcen = brrrrzero | pcwrite; 
  
 endmodule
 
