@@ -114,15 +114,15 @@ module maindec(input  logic       clk, reset,
                SW: nextstate <= MEMWR;
                default: nextstate <= 4'bx;//shant happen
               endcase
-      MEMRD: nextstate <=  
-      MEMWB: 
-      MEMWR: 
-      RTYPEEX: 
-      RTYPEWB: 
-      BEQEX:   
-      ADDIEX:  
-      ADDIWB:  
-      JEX:     
+      MEMRD: nextstate <= MEMWB
+      MEMWB: nextstate <= FETCH
+      MEMWR: nextstate <= FETCH
+      RTYPEEX: nextstate <= RTYPEWB
+      RTYPEWB: nextstate <= FETCH
+      BEQEX:   nextstate <= FETCH
+      ADDIEX:  nextstate <= ADDIWB
+      ADDIWB:  nextstate <= FETCH
+      JEX:     nextstate <= FETCH
       default: nextstate <= 4'bx; // should never happen
     endcase
 
