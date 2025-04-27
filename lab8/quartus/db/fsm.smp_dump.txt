@@ -1,0 +1,13 @@
+
+State Machine - |fsm|current_state
+Name current_state.s100 current_state.s1001 current_state.s10 current_state.s1100 current_state.s110 current_state.s1110 current_state.s111 current_state.s11 current_state.s1 current_state.init 
+current_state.init 0 0 0 0 0 0 0 0 0 0 
+current_state.s1 0 0 0 0 0 0 0 0 1 1 
+current_state.s11 0 0 0 0 0 0 0 1 0 1 
+current_state.s111 0 0 0 0 0 0 1 0 0 1 
+current_state.s1110 0 0 0 0 0 1 0 0 0 1 
+current_state.s110 0 0 0 0 1 0 0 0 0 1 
+current_state.s1100 0 0 0 1 0 0 0 0 0 1 
+current_state.s10 0 0 1 0 0 0 0 0 0 1 
+current_state.s1001 0 1 0 0 0 0 0 0 0 1 
+current_state.s100 1 0 0 0 0 0 0 0 0 1 

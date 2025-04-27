@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/intelModelSim
+valudec
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1745785611
+!i10b 1
+!s100 kc6SK]nFe@BKoHaDXXNm]2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzK2dL[SFbX^:_]=Dzg3QC0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9
+Z5 w1745785170
+Z6 8C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv
+Z7 FC:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv
+!i122 0
+L0 141 12
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1745785611.000000
+!s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+vcontroller
+R0
+R1
+!i10b 1
+!s100 n1;S_^S?13>QChnJ4bJ`91
+R2
+IPLbFJ?A_PXD:IC0@YU:jg0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 31 24
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Users/panda/Documents/ece texts books/ece 469/ECE469/lab9/mipsmulti.sv|
+R10
+!i113 1
+R11
+R12
+vdatapath
+R0
+R1
+!i10b 1
+!s100 TmhjFD9DEdT?]egR6JVCR2
+R2
+IfR=K:R@nbUDS6MX1o[e3<2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 165 42
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmips
+R0
+R1
+!i10b 1
+!s100 hkgCOXT7:=541KERz8@ec1
+R2
+IBc`G;JjZWZk0?=_zS3ZNm2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 8 22
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmux3
+R0
+R1
+!i10b 1
+!s100 ;`W01JLzE1m9A^IQW?1kJ0
+R2
+IzbPO0_O>ZLQo<;]M4_gP41
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 209 7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
+vmux4
+R0
+R1
+!i10b 1
+!s100 X?fmKh_fA8__?1]cVckaV0
+R2
+ICAYWYVZ;414e4??`4PLi13
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 217 13
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 1
+R11
+R12
