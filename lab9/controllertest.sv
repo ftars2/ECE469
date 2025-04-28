@@ -49,10 +49,10 @@ initial begin
             // Compare output
                count++;
             if ((pcen !== pcenn)||(memwr !== memwrn)||(irwr!== irwrn)||(regwr!==regwrn)||(alusrca!==alusrcan)||(iord!==iordn)||(mem2reg!==mem2regn)||(regdest!==regdestn)||(alusrcb!==alusrcbn)||(pcsrc!==pcsrcn)||(alucontrol!==alucontroln)) begin
-            $display("#%d FAIL: Expected: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b \x0d Got: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b",count,pcen,memwr,irwr,regwr,alusrca,iord,mem2reg,regdest,alusrcb,pcsrc,alucontrol,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln);
+            $display("#%d FAIL: Expected: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b \x0d Got: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b",count,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln,pcen,memwr,irwr,regwr,alusrca,iord,mem2reg,regdest,alusrcb,pcsrc,alucontrol);
             fail=1;
             end else begin
-            $display("#%d PASS: Expected: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b \x0d Got: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b",count,pcen,memwr,irwr,regwr,alusrca,iord,mem2reg,regdest,alusrcb,pcsrc,alucontrol,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln);
+            $display("#%d PASS: Expected: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b \x0d Got: pcen=%b,memwr=%b,irwr=%b,regwr=%b,alusrca=%b,iord=%b,mem2reg=%b,regdest=%b,alusrcb=%b,pcsrc=%b,alucontrol=%b",count,pcenn,memwrn,irwrn,regwrn,alusrcan,iordn,mem2regn,regdestn,alusrcbn,pcsrcn,alucontroln,pcen,memwr,irwr,regwr,alusrca,iord,mem2reg,regdest,alusrcb,pcsrc,alucontrol);
             end
         end
         end
